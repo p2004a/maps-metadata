@@ -1,3 +1,17 @@
+0jMFtrg8MuFKGgxmk6Nn:
+  author: Nikuksis
+  certified: true
+  description: Descending lava will open the ways to the opposite site.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  special: Lava
+  springName: Thermal Shock v1.1
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
 0jMFtrg8MuFKGgxmk6No:
   author: IceXuick
   certified: true
@@ -408,7 +422,7 @@ F40FJFEjKm3hcVzdnIvA:
   description: Survival map.
   gameType:
     - team
-    - 1v1
+    - pve
   inPool: true
   playerCount: 5
   springName: Requiem Outpost 1.0
@@ -614,6 +628,7 @@ NULeDCjbZw5azkUT66rZ:
     - ffa
     - team
     - 1v1
+    - pve
   inPool: true
   playerCount: 4
   special: Metal
@@ -692,6 +707,7 @@ SHA84LfmzYbxT8iIyTtU:
   gameType:
     - team
     - 1v1
+    - pve
   inPool: true
   springName: Rifted_V2
   terrain:
@@ -807,6 +823,7 @@ WJBtRZ22UUHZi2GTQ2FQ:
   gameType:
     - ffa
     - team
+    - pve
   inPool: true
   playerCount: 16
   special: PVE
@@ -952,6 +969,7 @@ Ydjj7Fy4NpaLHdkvhsIn:
     to all units in the central trench
   gameType:
     - team
+    - pve
   inPool: true
   playerCount: 20
   springName: Ditched_V1
@@ -963,12 +981,13 @@ Yhwa2neMfDTUXyAiSJXC:
   certified: true
   gameType:
     - team
+    - pve
   inPool: true
   playerCount: 10
   springName: Incandescence Remake 3.3
   teamCount: 2
   terrain:
-    - flat
+    - hills
 Z4WHfukbvXeat57zPFGW:
   author: IceXuick
   certified: true
@@ -1049,6 +1068,7 @@ Zy8Ha3O3lHl7mUMvM8Gs:
   description: Survival map. Perfect against Chickens or Scavengers.
   gameType:
     - ffa
+    - pve
   inPool: true
   playerCount: 4
   special: Survival
@@ -1208,6 +1228,7 @@ fivY9RQRkefErWygMT09:
   terrain:
     - flat
     - water
+    - hills
 fkhBIvsAdLiL9CvVlp2l:
   author: Johannes
   certified: true
@@ -1226,6 +1247,7 @@ frJOFVdgDIROpNVzgDed:
   certified: true
   gameType:
     - team
+    - pve
   inPool: true
   springName: Entrenched_Plains_V2
   terrain:
@@ -1408,6 +1430,7 @@ lJQnSRqDN7rNPS5pe80C:
   gameType:
     - ffa
     - team
+    - pve
   inPool: true
   playerCount: 16
   special: Metal
@@ -1695,6 +1718,7 @@ x0Y6f1ou7U5tF3S9xllC:
   gameType:
     - team
     - 1v1
+    - pve
   inPool: true
   springName: Riverdale Remake 2.1
   terrain:
@@ -1707,6 +1731,7 @@ x3jIjnV9aipWzVVWjZlL:
   gameType:
     - ffa
     - team
+    - pve
   inPool: true
   playerCount: 18
   special: Metal
