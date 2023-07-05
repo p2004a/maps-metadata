@@ -2249,6 +2249,39 @@ BHxtx4DPxKgPkUTkRg9e:
   terrain:
     - flat
     - water
+CXD1uv9uv28szDdk3dFR:
+  author: Phalange
+  certified: true
+  description: Up to 4v4 map. Lower plateaus ridges are bots passable.
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCXD1uv9uv28szDdk3dFR%2Fphoto%2FaCb9bywB8OmaCBgEn3KE-Isidis%20crack%201.0.jpg?alt=media&token=a02226e8-0ab7-491a-b622-aabd0432c3d4
+      lastModifiedTS: 1688485789048
+      name: Isidis crack 1.0.jpg
+      ref: maps/CXD1uv9uv28szDdk3dFR/photo/aCb9bywB8OmaCBgEn3KE-Isidis crack 1.0.jpg
+      type: image/jpeg
+  playerCount: 8
+  springName: Isidis crack 1.0
+  startboxesSet:
+    N1X3Y7fhIjgbhmKoXC0K:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 133
+            - x: 66
+              y: 200
+        - poly:
+            - x: 133
+              y: 0
+            - x: 200
+              y: 66
+  teamCount: 2
+  terrain:
+    - hills
+    - flat
 Cs5xNBZyuBzWCmPJKDbO:
   author: " (original by Beherith)"
   certified: false
@@ -3482,6 +3515,38 @@ LutAHarULFOEKKA21AvQ:
   terrain:
     - flat
     - hills
+MDi3gNqaTj3H1DkzpPfz:
+  author: Moose, Beherith
+  certified: true
+  description: An arena of dark crystal plateaus rise above a winding river.
+  gameType:
+    - 1v1
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg?alt=media&token=c33edd2a-3f9e-48bc-8261-5d47aa8785ce
+      lastModifiedTS: 1688418781719
+      name: screen00023cropped.jpg
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/photo/ocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg
+      type: image/jpeg
+  playerCount: 2
+  springName: Onyx Cauldron 2.0
+  startboxesSet:
+    rN1b1dKs245WjkLpjlDb:
+      startboxes:
+        - poly:
+            - x: 25
+              y: 25
+            - x: 55
+              y: 55
+        - poly:
+            - x: 145
+              y: 145
+            - x: 175
+              y: 175
+  teamCount: 2
+  terrain:
+    - water
+    - hills
 MqDO00JzJMESdzVDkkT5:
   author: Nikuksis (original by Hunterw)
   certified: false
@@ -3959,14 +4024,14 @@ PiT4WHNB94kc8vlAZtot:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2Fphoto%2Fw7K6bRx1voAYfhyJm0qN-forge_v2.0.jpg?alt=media&token=3d2529ec-1add-45c8-b176-d2944936979f
-      lastModifiedTS: 1688377181999
-      name: forge_v2.0.jpg
-      ref: maps/PiT4WHNB94kc8vlAZtot/photo/w7K6bRx1voAYfhyJm0qN-forge_v2.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2Fphoto%2FYPYLkhS3MpzvT5GozvnF-forge_v2.1.jpg?alt=media&token=bec45343-667b-41e8-a8b1-6fca0895da87
+      lastModifiedTS: 1688402868171
+      name: forge_v2.1.jpg
+      ref: maps/PiT4WHNB94kc8vlAZtot/photo/YPYLkhS3MpzvT5GozvnF-forge_v2.1.jpg
       type: image/jpeg
   playerCount: 16
   special: Lava
-  springName: Forge v2.0
+  springName: Forge v2.1
   startboxesSet:
     i90uNcrwzfiaMvmFIuZg:
       startboxes:
@@ -7472,6 +7537,40 @@ cQ5LLQmNqCPCnYFiTlcb:
   terrain:
     - flat
     - hills
+cQbwmwbhWrWyD1bhZNEn:
+  author: Ambulatory Cortex
+  certified: false
+  description: Huge island battlefield to fight on the mountains, beaches,
+    grassland, and sea.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2Ft8WeuOPFLQydpoMvd53o-JadeEmpressMini.png?alt=media&token=9491bb79-c9a6-4a7d-96ed-3cc79d336c85
+      lastModifiedTS: 1688506159593
+      name: JadeEmpressMini.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/t8WeuOPFLQydpoMvd53o-JadeEmpressMini.png
+      type: image/png
+  playerCount: 16
+  springName: Jade Empress 1.0
+  startboxesSet:
+    clJSKxOXdwbJjrMUj4Dv:
+      startboxes:
+        - poly:
+            - x: 45
+              y: 27
+            - x: 99
+              y: 62
+        - poly:
+            - x: 136
+              y: 94
+            - x: 172
+              y: 149
+  teamCount: 2
+  terrain:
+    - water
+    - hills
+    - flat
 cYgRxanQzvg7Bx9xXk1H:
   author: IceXuick
   certified: true
