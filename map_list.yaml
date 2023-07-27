@@ -1743,6 +1743,60 @@
     - flat
     - hills
     - water
+7qvZYwphKlrDjOcDOVLj:
+  author: Nikuksis
+  certified: true
+  description: Large valley to swirl your way to victory.
+  gameType:
+    - team
+    - pve
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7qvZYwphKlrDjOcDOVLj%2Fphoto%2F5yNtU5sE5A8iVbioPmRy-swirly_rock_v1.1.jpg?alt=media&token=0eb45898-bdb4-43b0-9524-8e97835b02b7
+      lastModifiedTS: 1690392566546
+      name: swirly_rock_v1.1.jpg
+      ref: maps/7qvZYwphKlrDjOcDOVLj/photo/5yNtU5sE5A8iVbioPmRy-swirly_rock_v1.1.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Swirly Rock v1.1
+  startboxesSet:
+    OV5TNNO46yM5krKyxAZP:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 70
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 70
+        - poly:
+            - x: 140
+              y: 140
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 140
+            - x: 60
+              y: 200
+    rW9FRx7Lbx5XJRaP4WHB:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
 8NJ4dy6hrSPsrezNmczE:
   author: Beherith
   certified: true
@@ -3407,6 +3461,38 @@ Jdb4pZyLQPb0IkSmaVrO:
   terrain:
     - flat
     - water
+LSbOSBM6bqPCs5heCJ9X:
+  author: Nikuksis
+  certified: false
+  description: Body of water separates two land masses. Great underwater starts!
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FLSbOSBM6bqPCs5heCJ9X%2Fphoto%2FS72iDK1l4MKUrYyhOnXs-the_barrier_reef_remake_v1.0.jpg?alt=media&token=bfeb1c1d-fa32-4523-97f0-a49971e2df63
+      lastModifiedTS: 1689776973424
+      name: the_barrier_reef_remake_v1.0.jpg
+      ref: maps/LSbOSBM6bqPCs5heCJ9X/photo/S72iDK1l4MKUrYyhOnXs-the_barrier_reef_remake_v1.0.jpg
+      type: image/jpeg
+  playerCount: 16
+  special: ""
+  springName: The BARrier Reef Remake v1.0
+  startboxesSet:
+    FwYelYHK7I8nKWIEsa1m:
+      startboxes:
+        - poly:
+            - x: 140
+              y: 80
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 120
+  teamCount: 2
+  terrain:
+    - water
 Lpy4w1DTM7BjEfERE3wK:
   author: Johannes
   certified: true
@@ -3547,6 +3633,39 @@ MDi3gNqaTj3H1DkzpPfz:
   terrain:
     - water
     - hills
+MIHFHzbaF3j4OMqvreh9:
+  author: Nikuksis
+  certified: false
+  description: 4v4. Slug it out in the middle, but watch out for planes!
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2Fphoto%2Fq0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg?alt=media&token=fc79635f-8571-429b-bd0a-45cd811e4d44
+      lastModifiedTS: 1689767527532
+      name: charlie_in_the_hills_remake_v1.1.jpg
+      ref: maps/MIHFHzbaF3j4OMqvreh9/photo/q0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg
+      type: image/jpeg
+  playerCount: 8
+  springName: Charlie In The Hills Remake v1.1
+  startboxesSet:
+    m4aqOUpLge2WCpHvSZqD:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 50
+        - poly:
+            - x: 0
+              y: 150
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
+    - flat
 MqDO00JzJMESdzVDkkT5:
   author: Nikuksis (original by Hunterw)
   certified: false
@@ -4429,14 +4548,14 @@ RLZ07b2DZS9vYPn5dvFX:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2FlnHGcaTSwBB5FYSi4OXE-red_river_estuary_v1.0.jpg?alt=media&token=600fe095-f2c8-488d-90fe-a5e6541ac981
-      lastModifiedTS: 1688932405285
-      name: red_river_estuary_v1.0.jpg
-      ref: maps/RLZ07b2DZS9vYPn5dvFX/photo/lnHGcaTSwBB5FYSi4OXE-red_river_estuary_v1.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2Fi1WaN03OlPHZzW13uvWl-red_river_estuary_v1.1.jpg?alt=media&token=fcd701c2-0a3c-4530-bdd1-f237630667ef
+      lastModifiedTS: 1689098549787
+      name: red_river_estuary_v1.1.jpg
+      ref: maps/RLZ07b2DZS9vYPn5dvFX/photo/i1WaN03OlPHZzW13uvWl-red_river_estuary_v1.1.jpg
       type: image/jpeg
   playerCount: 16
   special: Shallows
-  springName: Red River Estuary v1.0
+  springName: Red River Estuary v1.1
   startboxesSet:
     Fl4d1MGhk5U8MGpkCo1p:
       startboxes:
@@ -8848,13 +8967,13 @@ i0Wzo68Las9sWQk8O8CT:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fi0Wzo68Las9sWQk8O8CT%2Fphoto%2Fj9ohASUiYb25Pw7MeLC3-ascendancy_v2.0.jpg?alt=media&token=ebcf1578-669e-4623-8130-9d90eb83c7b2
-      lastModifiedTS: 1686992707914
-      name: ascendancy_v2.0.jpg
-      ref: maps/i0Wzo68Las9sWQk8O8CT/photo/j9ohASUiYb25Pw7MeLC3-ascendancy_v2.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fi0Wzo68Las9sWQk8O8CT%2Fphoto%2FrBSxTq4mU6MIboIdoP95-ascendancy_v2.2.jpg?alt=media&token=7ae33629-6ce3-4002-aca8-83cca9c46148
+      lastModifiedTS: 1690221954963
+      name: ascendancy_v2.2.jpg
+      ref: maps/i0Wzo68Las9sWQk8O8CT/photo/rBSxTq4mU6MIboIdoP95-ascendancy_v2.2.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Ascendancy v2.0
+  springName: Ascendancy v2.2
   startboxesSet:
     TCNtRqXWSa0CnGKOFNyM:
       startboxes:
