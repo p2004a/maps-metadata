@@ -43,6 +43,7 @@
       name: Seths_Ravine_Remake_1.3.jpg
       ref: maps/0jMFtrg8MuFKGgxmk6No/photo/yWvndwIRIkO3jUwo8NUs-Seths_Ravine_Remake_1.3.jpg
       type: image/jpeg
+  playerCount: 6
   springName: Seths Ravine Remake 1.3
   startboxesSet:
     OGVUm0ux5c8IWlmo2wAK:
@@ -153,6 +154,7 @@
       name: Talus_V2.jpg
       ref: maps/1D03UHTgJ5axEHRPrjzh/photo/wHTfmpydRIXwwEinapAa-Talus_V2.jpg
       type: image/jpeg
+  playerCount: 14
   springName: Talus_v2
   startboxesSet:
     4OLigLpF9FL0cRV22Vbv:
@@ -252,6 +254,7 @@
       name: tropical_assault_v3.0.jpg
       ref: maps/1FfJKeljSZeWodN5FZsW/photo/Fd2UJv7r7nm3j44ymV5B-tropical_assault_v3.0.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Tropical Assault v3.0
   startboxesSet:
     DEZDNLWYZJVZFAeoVxWW:
@@ -515,6 +518,7 @@
       name: FolsomdamR_1.16.jpg
       ref: maps/20rGnfO4wwkmV5v2fXVZ/photo/4O4NoLJsYr1lDxac7ReW-FolsomdamR_1.16.jpg
       type: image/jpeg
+  playerCount: 16
   special: Dam
   springName: FolsomDamR 1.16
   startboxesSet:
@@ -878,6 +882,7 @@
       name: archsimkats_valley_v1.jpg
       ref: maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
       type: image/jpeg
+  playerCount: 12
   springName: Archsimkats_Valley_V1
   startboxesSet:
     HvTB5hIGy0sQAKtxWBBH:
@@ -1171,6 +1176,7 @@
       name: KnockoutR_1.5.jpg
       ref: maps/3XVaIgjKnh120KPs7fv0/photo/O4fORVz0DqzhSga3OH1p-KnockoutR_1.5.jpg
       type: image/jpeg
+  playerCount: 16
   springName: KnockoutR 1.5
   startboxesSet:
     F0h38Yetg5EAbl1jHXJP:
@@ -1395,6 +1401,7 @@
       name: glacier_pass_1.2.jpg
       ref: maps/4FOX0gezL8gapbMPNmKH/photo/iXB6JADCVzq9rwVDmGAM-glacier_pass_1.2.jpg
       type: image/jpeg
+  playerCount: 4
   springName: Glacier Pass 1.2
   startboxesSet:
     0CpIuhxJMnHjCX3PiY5b:
@@ -1723,7 +1730,7 @@
     - flat
     - water
 7pm2zaEOk8QaxaEeOnZJ:
-  author: UNKNOWN
+  author: RebelNode
   certified: true
   description: Guide your horse through this barren landscape, but be vary of
     enemy horses pushing your way.
@@ -1823,6 +1830,7 @@
       name: Pillar_of_Doom_v1.jpg
       ref: maps/8NJ4dy6hrSPsrezNmczE/photo/t4w4oj4YXpfORr3v7VUi-Pillar_of_Doom_v1.jpg
       type: image/jpeg
+  playerCount: 3
   springName: Pillar_of_Doom_V1
   startboxesSet:
     9owKUikir31QuyFl0069:
@@ -2038,6 +2046,7 @@
       name: Crater_Islands_Remake_v1.0.jpg
       ref: maps/9enrMlkiT7SwhG3D35LB/photo/UudMg7yKSUnpboIl3sFI-Crater_Islands_Remake_v1.0.jpg
       type: image/jpeg
+  playerCount: 4
   springName: Crater Islands Remake v1.0
   startboxesSet:
     88175RkplfHBnxDH21RN:
@@ -2206,7 +2215,7 @@ ABBUHinh94O7299Php6p:
     - hills
     - flat
 ACgCe99NC8yZFecMwRCn:
-  author: IceXuick
+  author: IceXuick, Moose
   certified: true
   gameType:
     - 1v1
@@ -2217,6 +2226,7 @@ ACgCe99NC8yZFecMwRCn:
       name: Zed_Remake_3.3.jpg
       ref: maps/ACgCe99NC8yZFecMwRCn/photo/28JjEDk0ysfb5y4Eou36-Zed_Remake_3.3.jpg
       type: image/jpeg
+  playerCount: 2
   springName: Zed Remake 3.3
   startboxesSet:
     hWQlAvnxAKpa6GqQqbI2:
@@ -2401,6 +2411,8 @@ Cz4OYo0Z2yht9PUP8vcN:
   author: Nikuksis
   certified: true
   description: West vs South team game map. A lot of hot geysers spread here.
+  gameType:
+    - team
   inPool: true
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Cz4OYo0Z2yht9PUP8vcN/photo/ofMDo329YT9AZXhjA7lY-sulphur_springs_v1.1.jpg
@@ -2596,6 +2608,7 @@ EiT2c89HcHhHeuZxXako:
       name: TheRock_V3.jpg
       ref: maps/EiT2c89HcHhHeuZxXako/photo/GjhiWTzQMSzcLO3Zpiva-TheRock_V3.jpg
       type: image/jpeg
+  playerCount: 16
   springName: TheRock_V3
   startboxesSet:
     5UmsIkMYniDe9vB6FD61:
@@ -2714,6 +2727,7 @@ GPSFfpSd1wtmx4CZRGA6:
       name: Trefoil_Remake_2.20.jpg
       ref: maps/GPSFfpSd1wtmx4CZRGA6/photo/MdA8kk63cbQbnOQJWaj7-Trefoil_Remake_2.20.jpg
       type: image/jpeg
+  playerCount: 3
   springName: Trefoil Remake 2.20
   startboxesSet:
     0yMNnnX7IAxJAIJb1hFw:
@@ -3416,6 +3430,7 @@ Jdb4pZyLQPb0IkSmaVrO:
       name: Quicksilver_Remake_1.24.jpg
       ref: maps/Jdb4pZyLQPb0IkSmaVrO/photo/ITwy4hNgCKfIhqaKztjZ-Quicksilver_Remake_1.24.jpg
       type: image/jpeg
+  playerCount: 2
   springName: Quicksilver Remake 1.24
   startboxesSet:
     IBTlKdK9Qj8JK7VOzUb0:
@@ -3685,6 +3700,7 @@ MDi3gNqaTj3H1DkzpPfz:
   description: An arena of dark crystal plateaus rise above a winding river.
   gameType:
     - 1v1
+    - pve
   inPool: true
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg?alt=media&token=c33edd2a-3f9e-48bc-8261-5d47aa8785ce
@@ -3758,6 +3774,7 @@ MqDO00JzJMESdzVDkkT5:
       name: tumult_remake_v1.0.jpg
       ref: maps/MqDO00JzJMESdzVDkkT5/photo/ppl1uBCIqn6z3ievxZBe-tumult_remake_v1.0.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Tumult Remake v1.0
   startboxesSet:
     tbm3KGHLhOqsPPsOa1JJ:
@@ -3810,6 +3827,7 @@ MuFsIEswFS9FbuamCfbS:
       name: Shore_to_Shore_V3.jpg
       ref: maps/MuFsIEswFS9FbuamCfbS/photo/GiVvxCDqf08BAdrIrf8u-Shore_to_Shore_V3.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Shore_to_Shore_V3
   startboxesSet:
     7HSqBpufyCyKCsQNtvIq:
@@ -4050,6 +4068,7 @@ OgYCeZrIVMN1b9sUbweo:
       name: Tau12.jpg
       ref: maps/OgYCeZrIVMN1b9sUbweo/photo/zc4138j6fDu20DBqTKnR-Tau12.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Tau12
   startboxesSet:
     Bj5fGgnHzW0Z1zDhsNg1:
@@ -4403,6 +4422,7 @@ QlanwpEXsYOy3ZYYp3iu:
       name: Tabula_Remake_1.5.jpg
       ref: maps/QlanwpEXsYOy3ZYYp3iu/photo/EG9ZHJ3p3xQjqvMGX98W-Tabula_Remake_1.5.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Tabula_Remake 1.5
   startboxesSet:
     FSp4SUieI2xy5LjH5R55:
@@ -4663,6 +4683,7 @@ RT3Y6Qyjvt3pTGXWjWPK:
       name: hotstepper_5_1.2.jpg
       ref: maps/RT3Y6Qyjvt3pTGXWjWPK/photo/84dvIGI3vOp6IcaK8XIO-hotstepper_5_1.2.jpg
       type: image/jpeg
+  playerCount: 5
   special: Lava
   springName: Hotstepper 5 1.2
   startboxesSet:
@@ -4769,6 +4790,7 @@ SHA84LfmzYbxT8iIyTtU:
       name: Rifted_V2.jpg
       ref: maps/SHA84LfmzYbxT8iIyTtU/photo/Lfq7Vb90oXDH2kYbZybf-Rifted_V2.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Rifted_V2
   startboxesSet:
     7RFKiStWzYXY8IEJrOwF:
@@ -4841,6 +4863,7 @@ SQpSGbxxp50QcMKG2TJp:
       name: supreme_strait_v1.4.jpg
       ref: maps/SQpSGbxxp50QcMKG2TJp/photo/qPWKjt0rYNj9cmrLzQdV-supreme_strait_v1.4.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Supreme Strait v1.4
   startboxesSet:
     wAYCYnoh68AhZMGQcFzY:
@@ -4871,6 +4894,7 @@ SYB0blENn3hqhEyLC24B:
       name: Throne_V8.jpg
       ref: maps/SYB0blENn3hqhEyLC24B/photo/YF4HSzBHaipGgq4R3cNq-Throne_V8.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Throne_V8
   startboxesSet:
     1U7W6eZ8J2yD159Yz6IA:
@@ -5460,6 +5484,7 @@ UeeBymo7RdXE5ty3amFw:
       name: Kolmogorov_Remake_3.0.jpg
       ref: maps/UeeBymo7RdXE5ty3amFw/photo/3hqflPxPOFrZSv9HzdBd-Kolmogorov_Remake_3.0.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Kolmogorov Remake 3.0
   startboxesSet:
     Ygu3WlAq6kP0uawS7KSh:
@@ -5531,6 +5556,7 @@ UhGP9ish5WdFio1VfrU6:
       name: boulder_beach_v1.jpg
       ref: maps/UhGP9ish5WdFio1VfrU6/photo/WGvUXAwB1KRGcFUnOEUR-boulder_beach_v1.jpg
       type: image/jpeg
+  playerCount: 10
   springName: Boulder_Beach_V1
   startboxesSet:
     QPcOg6QCzg7rKoOz0unx:
@@ -5948,7 +5974,7 @@ WuwJQPBtwMfJR9czmWuQ:
     - hills
     - water
 X0N11knnIS4fWqkoFPBC:
-  author: UNKNOWN
+  author: Moose
   certified: true
   description: Large mountains and many passes.
   gameType:
@@ -6272,6 +6298,7 @@ XipxkGywEz3REbHKrvP6:
       name: Taldarim_V3.jpg
       ref: maps/XipxkGywEz3REbHKrvP6/photo/PxTkWSgFuECDpTd7fxAi-Taldarim_V3.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Taldarim_V3
   startboxesSet:
     37lc39E8gniFLiT9HIb7:
@@ -6558,6 +6585,7 @@ Xut8FRCmn2h5DuUqzF26:
       name: Red_Comet_Remake_1.8.jpg
       ref: maps/Xut8FRCmn2h5DuUqzF26/photo/r3MAxdHpBW5w6D0bEtjn-Red_Comet_Remake_1.8.jpg
       type: image/jpeg
+  playerCount: 2
   springName: Red Comet Remake 1.8
   startboxesSet:
     l4SC94yGXg45xTJLOkNE:
@@ -6614,7 +6642,7 @@ Xut8FRCmn2h5DuUqzF26:
   terrain:
     - flat
 Y5e7sl891wO5G2ttwjmr:
-  author: PtaQ/Moose
+  author: Moose, PtaQ
   certified: true
   description: A lush river cuts through the bottom of this deep chasm. East vs West.
   gameType:
@@ -6758,7 +6786,7 @@ Yhwa2neMfDTUXyAiSJXC:
   terrain:
     - flat
 Z7wmue7EsjaTNpsdBuyx:
-  author: UNKNOWN
+  author: RebelNode
   certified: true
   description: Team game map capable of 8v8.
   gameType:
@@ -6773,6 +6801,7 @@ Z7wmue7EsjaTNpsdBuyx:
   playerCount: 16
   springName: Pawn Retreat 1.2
   startboxesSet:
+    0dJ1kskBPR20iSfvTqHh: {}
     9SQorBYBRNV7YaZP6qtW:
       startboxes:
         - poly:
@@ -6842,6 +6871,7 @@ ZrnTf20mPzbrMjtHa9Wg:
       name: Riverrun_V1.jpg
       ref: maps/ZrnTf20mPzbrMjtHa9Wg/photo/sFr9Rlw0Y9l52luQ1qoF-Riverrun_V1.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Riverrun_V1
   startboxesSet:
     4QDYnTGkngUE3fklTJex:
@@ -6936,6 +6966,7 @@ ZxFS2VuODjyLH5V8mHfR:
       name: Mescaline_V2.jpg
       ref: maps/ZxFS2VuODjyLH5V8mHfR/photo/vGQNFBxiVIgCVpK9r80o-Mescaline_V2.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Mescaline_V2
   startboxesSet:
     37kge8RgZ62Yn0ektOGi:
@@ -7120,6 +7151,7 @@ aUhyiiVDKaRECJfqPBAo:
       name: Flooded_Valley_V5.jpg
       ref: maps/aUhyiiVDKaRECJfqPBAo/photo/gBaBpjiZOrEdPRlChXDL-Flooded_Valley_V5.jpg
       type: image/jpeg
+  playerCount: 2
   springName: Flooded_Valley_V5
   startboxesSet:
     3lacBPW7tvgJbH98jGPS:
@@ -7309,6 +7341,7 @@ bkIRTcsnvtmQVsm3SsNJ:
       name: SpeedMetal_BAR_V2.jpg
       ref: maps/bkIRTcsnvtmQVsm3SsNJ/photo/9I2cjldlLIAtkv4uXoDa-SpeedMetal_BAR_V2.jpg
       type: image/jpeg
+  playerCount: 16
   special: Metal
   springName: SpeedMetal BAR V2
   startboxesSet:
@@ -7384,6 +7417,7 @@ byucseTLrpgU0J70dFC0:
       name: ghenna_rising_4.0.jpg
       ref: maps/byucseTLrpgU0J70dFC0/photo/FnQtxUYk7b2dU4VNw087-ghenna_rising_4.0.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Ghenna Rising 4.0
   startboxesSet:
     674t6nm6I0JXYdJW8ymv:
@@ -7672,6 +7706,7 @@ cQ5LLQmNqCPCnYFiTlcb:
       name: koom_valley_3_3.1.jpg
       ref: maps/cQ5LLQmNqCPCnYFiTlcb/photo/YiCxALW1GA30M8aaQ6YD-koom_valley_3_3.1.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Koom Valley 3 3.1
   startboxesSet:
     5gbx2gMxKSp89kIG8qZ6:
@@ -7776,26 +7811,27 @@ cQbwmwbhWrWyD1bhZNEn:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2Ft8WeuOPFLQydpoMvd53o-JadeEmpressMini.png?alt=media&token=9491bb79-c9a6-4a7d-96ed-3cc79d336c85
-      lastModifiedTS: 1688506159593
-      name: JadeEmpressMini.png
-      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/t8WeuOPFLQydpoMvd53o-JadeEmpressMini.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2FuRyhwUZmiOtuYgrJmegb-Jade%20Empress%201.2%20minimap.png?alt=media&token=55f9b228-ee73-4476-b12f-9ed4cc03ef1b
+      lastModifiedTS: 1694834890542
+      name: Jade Empress 1.2 minimap.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/uRyhwUZmiOtuYgrJmegb-Jade Empress 1.2
+        minimap.png
       type: image/png
   playerCount: 16
-  springName: Jade Empress 1.0
+  springName: Jade Empress 1.2
   startboxesSet:
     clJSKxOXdwbJjrMUj4Dv:
       startboxes:
         - poly:
-            - x: 45
-              y: 27
-            - x: 99
-              y: 62
+            - x: 37
+              y: 26
+            - x: 97
+              y: 68
         - poly:
-            - x: 136
-              y: 94
+            - x: 133
+              y: 87
             - x: 172
-              y: 149
+              y: 157
   teamCount: 2
   terrain:
     - water
@@ -7953,6 +7989,7 @@ eLHwUEMIb0S3qLy0OT6G:
       name: Titan_v3.1.jpg
       ref: maps/eLHwUEMIb0S3qLy0OT6G/photo/TalH8v7eyFa2l311K9qR-Titan_v3.1.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Titan v3.1
   startboxesSet:
     YpzfxuK3jUUy1HY91MpV:
@@ -8020,6 +8057,7 @@ eR6j6L2F2OSP7QeCfW8O:
       name: Paradise_Lost_V4.jpg
       ref: maps/eR6j6L2F2OSP7QeCfW8O/photo/JtQ3QbhD184zhfnDn2Sr-Paradise_Lost_V4.jpg
       type: image/jpeg
+  playerCount: 4
   springName: Paradise_Lost_V4
   startboxesSet:
     Ial7dLhnugqoZVYhfLTe:
@@ -8115,6 +8153,7 @@ etCTTwexgYVGMV63rOWy:
       name: Fallendell_V4.jpg
       ref: maps/etCTTwexgYVGMV63rOWy/photo/PxfK0OVAJ6nbA4e1RRPL-Fallendell_V4.jpg
       type: image/jpeg
+  playerCount: 4
   springName: Fallendell_V4
   startboxesSet:
     Z0KDnn13KoLOHvGLXiOa:
@@ -8376,6 +8415,7 @@ frJOFVdgDIROpNVzgDed:
       name: Entrenched_Plains_V2.jpg
       ref: maps/frJOFVdgDIROpNVzgDed/photo/BOIqRlkT58MQkJp0km86-Entrenched_Plains_V2.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Entrenched_Plains_V2
   startboxesSet:
     H8ZbkudWG2oKG7j7JSCG:
@@ -9117,6 +9157,7 @@ iQZFWB7rheiOseoQXihq:
       name: Great_Divide_V1.jpg
       ref: maps/iQZFWB7rheiOseoQXihq/photo/JcFcpkK9Zh08Bp9C0sAI-Great_Divide_V1.jpg
       type: image/jpeg
+  playerCount: 4
   springName: Great Divide V1
   startboxesSet:
     GpgEDAx4mZp9ugvwOQtY:
@@ -9183,6 +9224,7 @@ iq0vEBrVv1ZudgcWr2ST:
       name: Gecko_Isle_Remake_v1.2.jpg
       ref: maps/iq0vEBrVv1ZudgcWr2ST/photo/KFioSWYgeuSQCiF8k7N6-Gecko_Isle_Remake_v1.2.jpg
       type: image/jpeg
+  playerCount: 12
   springName: Gecko Isle Remake v1.2
   startboxesSet:
     1GMmTudFGk6IGm85TnHJ:
@@ -10044,6 +10086,7 @@ ljx3Fdz1TLbewjyAIoVw:
       name: Tundra_V2.jpg
       ref: maps/ljx3Fdz1TLbewjyAIoVw/photo/lxAbvb4fC6mncreiUXuY-Tundra_V2.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Tundra_V2
   startboxesSet:
     E2FsG32ZeiuyQPkgOhOy:
@@ -10132,7 +10175,7 @@ mAD4ToJrMg6xGHEM18qN:
   terrain:
     - hills
 mzdkzzTL3zgPanW6zQx4:
-  author: UNKNOWN
+  author: ShaunJS
   certified: true
   description: A deep space battle arena; used as a secret final testing ground
     for upcoming commanders
@@ -10447,6 +10490,7 @@ pqGeTK0PB1xPJ6A1u6CO:
       name: TitanDuel_V3.jpg
       ref: maps/pqGeTK0PB1xPJ6A1u6CO/photo/8nfaUN9dUFhDnvAK6r5k-TitanDuel_V3.jpg
       type: image/jpeg
+  playerCount: 4
   springName: TitanDuel_V3
   startboxesSet:
     6iFTlWJglnA4zEQ12P2J:
@@ -10749,6 +10793,7 @@ snRldJIaPiKTiNiEAPEg:
       name: Stronghold_V4.jpg
       ref: maps/snRldJIaPiKTiNiEAPEg/photo/ImrpiWt31vesbpJULyML-Stronghold_V4.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Stronghold V4
   startboxesSet:
     Ab3VYqLTOaxCrnWOLtSw:
@@ -10906,6 +10951,19 @@ u17mWZp6jqx5b5s0Or5z:
       type: image/jpeg
   playerCount: 8
   springName: Theta Crystals 1.0
+  startboxesSet:
+    TCF49ZiiKLtHcKt1YnJe:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 130
+            - x: 77
+              y: 200
+        - poly:
+            - x: 130
+              y: 0
+            - x: 200
+              y: 77
   teamCount: 2
   terrain:
     - flat
@@ -10944,6 +11002,7 @@ uZq5zZ1FTcdZ7FS4k3lc:
       name: hotlips_remake_v3.1.jpg
       ref: maps/uZq5zZ1FTcdZ7FS4k3lc/photo/DHy3Ln8fdQHpBZzq40BD-hotlips_remake_v3.1.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Hotlips Remake v3.1
   startboxesSet:
     3mMrk1uS4h1KtrniP4Dd:
@@ -11091,6 +11150,7 @@ vTVisQEv3JM2pa0TvUHy:
       name: Evad_River_Confluence_V2.jpg
       ref: maps/vTVisQEv3JM2pa0TvUHy/photo/L3jmPAmRhXoMk2bBzE4Y-Evad_River_Confluence_V2.jpg
       type: image/jpeg
+  playerCount: 3
   springName: Evad River Confluence_V2
   startboxesSet:
     9GX3NIT62Nlef5jCxuvn:
@@ -11306,6 +11366,7 @@ vryCgnmiXKEfnJuBLobP:
       name: Greenest_Fields_1.3.jpg
       ref: maps/vryCgnmiXKEfnJuBLobP/photo/QSkH6k0AtA19U6Odo6Aq-Greenest_Fields_1.3.jpg
       type: image/jpeg
+  playerCount: 16
   special: No Metal
   springName: Greenest Fields 1.3
   startboxesSet:
@@ -12172,6 +12233,7 @@ zoXOP8VC1sNWpsP41IYV:
       name: Plethora_of_Ponds_V1.jpg
       ref: maps/zoXOP8VC1sNWpsP41IYV/photo/sQxsoxaDb7kqDdYCwjF9-Plethora_of_Ponds_V1.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Plethora_of_Ponds_V1
   startboxesSet:
     0MopKCrY6xKJPUJDFR6C:
@@ -12313,6 +12375,7 @@ zvBCoDF2TaUPp7AwfCUr:
       name: Pinewood_Derby_V1.jpg
       ref: maps/zvBCoDF2TaUPp7AwfCUr/photo/jvoKXrxDmwa0pjJg8sdu-Pinewood_Derby_V1.jpg
       type: image/jpeg
+  playerCount: 4
   springName: Pinewood_Derby_V1
   startboxesSet:
     BElJnDG0vf54mZBpkXlz:
@@ -12380,6 +12443,7 @@ zvTEXnewG2G8LaMjFq4o:
       name: nuclear_winter_bar_1.4.jpg
       ref: maps/zvTEXnewG2G8LaMjFq4o/photo/Vz82Llxb6p3TojR31iT8-nuclear_winter_bar_1.4.jpg
       type: image/jpeg
+  playerCount: 16
   springName: Nuclear Winter Bar 1.4
   startboxesSet:
     3qNRi3CrWeUOeaKoz7Lz:
@@ -12448,6 +12512,7 @@ zzzzzzzzzzzzzzzzzzzx:
       name: AcidicQuarry_5.16.jpg
       ref: maps/zzzzzzzzzzzzzzzzzzzx/photo/AEzy0dju5vzdMZPMnqjH-AcidicQuarry_5.16.jpg
       type: image/jpeg
+  playerCount: 4
   special: Air
   springName: AcidicQuarry 5.16
   startboxesSet:
