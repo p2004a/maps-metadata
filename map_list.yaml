@@ -125,7 +125,7 @@
       ref: maps/0rkuPKU4nx2GuhlUC8sH/photo/3QFsvRpz7psmFzZsKKAP-sphagnum_bog_v1.1.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Sphagnum Bog v1.1
+  springName: Sphagnum Bog v1.2
   startboxesSet:
     EcjJI52KJlIdMv7iCpUH:
       startboxes:
@@ -286,7 +286,23 @@
       name: sertagatta_v6.0.jpg
       ref: maps/1JL7kMOT8mYsx2OEQnv8/photo/fhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Sertagatta v6.0
+  startboxesSet:
+    vQF8jbb54bWej3UbzkOD:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -1108,7 +1124,7 @@
       name: Rosetta_1.4.jpg
       ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
       type: image/jpeg
-  playerCount: 12
+  playerCount: 16
   springName: Rosetta 1.4
   startboxesSet:
     sTFq5XrgMhEi2dScFbqz:
@@ -1151,6 +1167,7 @@
             - x: 40
               y: 199
     yF6wJrGQwl1rzGbiGQsf:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -1491,6 +1508,20 @@
       type: image/jpeg
   playerCount: 16
   springName: Hades Ponds 0.7
+  startboxesSet:
+    1JM0wTOA7VXzj3ciiFwt:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -2218,6 +2249,39 @@ ABBUHinh94O7299Php6p:
   terrain:
     - hills
     - flat
+ACgCe99NC8yZFecMwRCm:
+  author: Nikuksis
+  certified: true
+  description: 24x24 BAR remake of a famous map.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FChhQEtWbmdgrV819PUXm-supreme162.jpg?alt=media&token=3ca970f7-aba5-4cea-ad65-956c7dea82bb
+      lastModifiedTS: 1698394269427
+      name: supreme162.jpg
+      ref: maps/ACgCe99NC8yZFecMwRCm/photo/ChhQEtWbmdgrV819PUXm-supreme162.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Supreme Isthmus v1.6.2
+  startboxesSet:
+    DizlFBRdBVRvBiS3RKYl:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 120
+            - x: 80
+              y: 200
+        - poly:
+            - x: 120
+              y: 0
+            - x: 200
+              y: 80
+  terrain:
+    - flat
+    - hills
+    - water
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick, Moose
   certified: true
@@ -2272,6 +2336,43 @@ An6zReiqIWD15Yx7bZ3b:
       type: image/jpeg
   playerCount: 6
   springName: Altair_Crossing_V4.1
+  startboxesSet:
+    6ZY9JsPhsRk3RKraqS6V:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 80
+              y: 0
+            - x: 120
+              y: 40
+        - poly:
+            - x: 80
+              y: 160
+            - x: 120
+              y: 200
+        - poly:
+            - x: 0
+              y: 80
+            - x: 40
+              y: 120
+        - poly:
+            - x: 160
+              y: 80
+            - x: 200
+              y: 120
+    Gt7j6dHFGUDRtugd6vaO:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -2443,6 +2544,38 @@ Cz4OYo0Z2yht9PUP8vcN:
   teamCount: 2
   terrain:
     - flat
+DUxqUMUDGiYr1y5jx3sq:
+  author: Phalange
+  certified: true
+  description: Original map by AidanNaut. Ticks cannot cross water.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FDUxqUMUDGiYr1y5jx3sq%2Fphoto%2FnsNdaTlOvKWk5zsVvOEA-fn_minimap.jpg?alt=media&token=8f52e950-9fbf-4655-aff6-2aab9fa17147
+      lastModifiedTS: 1695763102517
+      name: fn_minimap.jpg
+      ref: maps/DUxqUMUDGiYr1y5jx3sq/photo/nsNdaTlOvKWk5zsVvOEA-fn_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Failed Negotiations 1.0
+  startboxesSet:
+    xF2vjJ2Nxnl6NC7cyiip:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 60
+        - poly:
+            - x: 0
+              y: 140
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - water
+    - hills
 DyHExxTkkRB4DweNDViM:
   author: Nikuksis
   certified: true
@@ -2597,6 +2730,20 @@ ER2B5mT2LU864k1f0UeH:
       type: image/jpeg
   playerCount: 4
   springName: Coast To Coast BAR v1.0
+  startboxesSet:
+    5zyYrpz8v2JPlwGmZau3:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - water
@@ -2910,6 +3057,20 @@ Gkh9KVgCUNbGTXWBjPoV:
       type: image/jpeg
   playerCount: 16
   springName: Serene Caldera v1.3
+  startboxesSet:
+    9kHAEO5FGRJU2Lozl2Be:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 40
+        - poly:
+            - x: 0
+              y: 160
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -3028,6 +3189,20 @@ GxjYgcmTFdC3JivNsghb:
       type: image/jpeg
   playerCount: 10
   springName: Ring Atoll Remake v2.0
+  startboxesSet:
+    LkruJGhk1UQol4ym4oEZ:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 5
   terrain:
     - water
@@ -3713,7 +3888,7 @@ MDi3gNqaTj3H1DkzpPfz:
       ref: maps/MDi3gNqaTj3H1DkzpPfz/photo/ocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg
       type: image/jpeg
   playerCount: 2
-  springName: Onyx Cauldron 2.1
+  springName: Onyx Cauldron 2.2
   startboxesSet:
     rN1b1dKs245WjkLpjlDb:
       startboxes:
@@ -4858,17 +5033,18 @@ SHA84LfmzYbxT8iIyTtU:
 SQpSGbxxp50QcMKG2TJp:
   author: Nikuksis
   certified: true
+  description: 24x24 October 2023 Tournament version.
   gameType:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/SQpSGbxxp50QcMKG2TJp/photo/qPWKjt0rYNj9cmrLzQdV-supreme_strait_v1.4.jpg
-      lastModifiedTS: 1683982281856
-      name: supreme_strait_v1.4.jpg
-      ref: maps/SQpSGbxxp50QcMKG2TJp/photo/qPWKjt0rYNj9cmrLzQdV-supreme_strait_v1.4.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSQpSGbxxp50QcMKG2TJp%2Fphoto%2Fj05eIHH5lbwbqpTp5kCb-supreme_strait_MAP.jpg?alt=media&token=e5a95f25-831f-4ef9-8cf9-1e6a9ceda480
+      lastModifiedTS: 1696105548992
+      name: supreme_strait_MAP.jpg
+      ref: maps/SQpSGbxxp50QcMKG2TJp/photo/j05eIHH5lbwbqpTp5kCb-supreme_strait_MAP.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Supreme Strait v1.4
+  springName: Supreme Strait v1.41
   startboxesSet:
     wAYCYnoh68AhZMGQcFzY:
       startboxes:
@@ -5783,6 +5959,20 @@ WJBtRZ22UUHZi2GTQ2FQ:
   playerCount: 16
   special: PVE
   springName: Ancient Vault v1.4
+  startboxesSet:
+    FEZEdHyNIq1R4jl5B82e:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
@@ -5836,6 +6026,38 @@ WOlmGcTZXUtV5iy57Kc9:
   terrain:
     - hills
     - water
+WrkVFQS8BedaqPg5SeB7:
+  author: Phalange
+  certified: false
+  description: 4v4-8v8 map. The large pits with 2 geothermals are unreachable by land.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWrkVFQS8BedaqPg5SeB7%2Fphoto%2FnOiY1C9wRLgbTPpFBygY-Scylla_minimap.jpg?alt=media&token=e81d069b-ac08-4427-aca2-bc05e1e7e948
+      lastModifiedTS: 1698793737000
+      name: Scylla_minimap.jpg
+      ref: maps/WrkVFQS8BedaqPg5SeB7/photo/nOiY1C9wRLgbTPpFBygY-Scylla_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Scylla and Charybdis 1.0
+  startboxesSet:
+    kRIRB3IqW07796KrvKeU:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 50
+        - poly:
+            - x: 0
+              y: 150
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
 WuwJQPBtwMfJR9czmWuQ:
   author: Nikuksis
   certified: true
@@ -6127,6 +6349,20 @@ XAYu2CrwVdR5GlcpOxL0:
       ref: maps/XAYu2CrwVdR5GlcpOxL0/photo/3WEjStNWVSaUyrXCCB1O-Supreme_Crossing_2.2.jpg
       type: image/jpeg
   springName: Supreme_Crossing 2.2
+  startboxesSet:
+    4cYtAR85ZKe6gs85kkRe:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 0
+              y: 160
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 40
   terrain:
     - flat
     - water
@@ -6660,6 +6896,43 @@ Y5e7sl891wO5G2ttwjmr:
       type: image/jpeg
   playerCount: 12
   springName: Rustcrown Canyon 1.2
+  startboxesSet:
+    4GJhbzQTAs52oAyCUWRG:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 40
+        - poly:
+            - x: 160
+              y: 160
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 160
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 40
+    Wld9X78iaTL095TweT4A:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
@@ -7291,9 +7564,9 @@ bLBXDWyEuUqG825WYzHj:
             - x: 40
               y: 200
         - poly:
-            - x: 194
+            - x: 160
               y: 0
-            - x: 199
+            - x: 200
               y: 200
     nwHxgAz3qaWE7kanxg9n:
       startboxes:
@@ -7329,7 +7602,23 @@ bX4YxbtQ8YCc6G0yMumJ:
       name: sertaleina_v9.0.jpg
       ref: maps/bX4YxbtQ8YCc6G0yMumJ/photo/rkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg
       type: image/jpeg
+  playerCount: 6
   springName: Sertaleina_v9.2
+  startboxesSet:
+    eGM960aCQH3mDgjVZSmH:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
   terrain:
     - flat
 bkIRTcsnvtmQVsm3SsNJ:
@@ -7698,6 +7987,37 @@ c8VOLOtft95bMvYUg60R:
   teamCount: 8
   terrain:
     - flat
+cIMaYX0u2fprp7Qk78wK:
+  author: Nikuksis
+  certified: true
+  description: Up to 8v8 map with many green hills.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcIMaYX0u2fprp7Qk78wK%2Fphoto%2FFTf911HfF4x5GXKBYc1e-PaP.jpg?alt=media&token=3f6d5069-66c9-4b48-b3d4-da4f813c5812
+      lastModifiedTS: 1696684867216
+      name: PaP.jpg
+      ref: maps/cIMaYX0u2fprp7Qk78wK/photo/FTf911HfF4x5GXKBYc1e-PaP.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Plains and Passes v1.0
+  startboxesSet:
+    j3tkoOiTICsyJU0vIZIA:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
 cQ5LLQmNqCPCnYFiTlcb:
   author: IceXuick
   certified: true
@@ -9113,6 +9433,20 @@ hC5Ic7adKaK6YBA68mKY:
       type: image/jpeg
   playerCount: 6
   springName: The Halite Maze v1.4
+  startboxesSet:
+    PvHXKqTCLX1WaY1EgL7Q:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
@@ -9211,6 +9545,20 @@ igcp0iDB12WAKPdtBDna:
       type: image/jpeg
   playerCount: 16
   springName: White Fire Remake 1.3
+  startboxesSet:
+    L0la5r0IeQWzETmxsIKK:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 50
+        - poly:
+            - x: 0
+              y: 150
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
@@ -10336,81 +10684,23 @@ oX7eHI8mlpVvJUYs4v4Y:
       type: image/jpeg
   playerCount: 16
   springName: All That Glitters v2.1
+  startboxesSet:
+    CSxs9XHI6Fe1a9N8ZIMX:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 40
+        - poly:
+            - x: 0
+              y: 160
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
-p5q4vnb8BqgpmyEfB2xh:
-  author: IceXuick
-  certified: true
-  description: Medium sized map, optimal for 8 to 10 players. Fight in the hills
-    in the north to secure strategic points or wage war in on the flats in the
-    south.
-  gameType:
-    - team
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/p5q4vnb8BqgpmyEfB2xh/photo/NnkGspGJBAOPi2d1XEZa-DSDR_4.1.jpg
-      lastModifiedTS: 1683982318190
-      name: DSDR_4.1.jpg
-      ref: maps/p5q4vnb8BqgpmyEfB2xh/photo/NnkGspGJBAOPi2d1XEZa-DSDR_4.1.jpg
-      type: image/jpeg
-  playerCount: 10
-  springName: DSDR 4.1
-  startboxesSet:
-    JcRi4ksxL1m6xeSdEDmI:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 106
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 76
-        - poly:
-            - x: 80
-              y: 64
-            - x: 120
-              y: 104
-        - poly:
-            - x: 3
-              y: 81
-            - x: 200
-              y: 113
-    lRyOeDND4yapJMSoqIFE:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 114
-            - x: 200
-              y: 200
-        - poly:
-            - x: 11
-              y: 31
-            - x: 188
-              y: 78
-        - poly:
-            - x: 0
-              y: 0
-            - x: 198
-              y: 30
-    oHl0gU0Ahnua9OVgayhI:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 60
-              y: 200
-        - poly:
-            - x: 140
-              y: 0
-            - x: 200
-              y: 200
-  teamCount: 2
-  terrain:
-    - hills
 pZko6a1Lqs5ZYeVO0BqS:
   author: Beherith
   certified: true
@@ -10629,6 +10919,38 @@ pzZ5zAyferpDePxtC2hG:
   terrain:
     - hills
     - water
+qrpwI83FonOR43KTBxZE:
+  author: RebelNode
+  certified: true
+  description: Salmiakki is both salty and sweet. Which one will it be for you?
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqrpwI83FonOR43KTBxZE%2Fphoto%2FkiLyeQuUB0Cv9UiqPdI8-salmiakki_topdown.png?alt=media&token=91ebc5b5-ab45-4674-9209-119d7648f357
+      lastModifiedTS: 1697522645986
+      name: salmiakki_topdown.png
+      ref: maps/qrpwI83FonOR43KTBxZE/photo/kiLyeQuUB0Cv9UiqPdI8-salmiakki_topdown.png
+      type: image/png
+  playerCount: 16
+  springName: Salmiakki 1.2
+  startboxesSet:
+    Cnq5FP96uB07wGWJ92oU:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 46
+              y: 200
+        - poly:
+            - x: 154
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
 rQ8v6BePPrXIaQaaQjam:
   author: Raghna
   certified: true
@@ -10938,6 +11260,20 @@ te9bV2b9aiw8w9qgzTJg:
       type: image/jpeg
   playerCount: 6
   springName: The Cold Place BAR v1.1
+  startboxesSet:
+    8G0psmFAcaxwtegIR87P:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -11141,6 +11477,20 @@ vFNwoJJ3cCMzSaAAQPvR:
       type: image/jpeg
   playerCount: 16
   springName: Starwatcher 1.0
+  startboxesSet:
+    QHtPYvsorgmM4mAWPqP1:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -11947,6 +12297,20 @@ xn2aVcKlkpTQAakCC3Z8:
       type: image/jpeg
   playerCount: 4
   springName: Copper Hill v1
+  startboxesSet:
+    NI1TG4i0cXC9O48zpxNK:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
