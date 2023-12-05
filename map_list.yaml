@@ -701,6 +701,43 @@
   terrain:
     - hills
     - wasteland
+2NlrSE2CMUyFpxlComtj:
+  author: Phalange
+  certified: false
+  description: "Tips for water level settings : -20 for no shallow waters, -200
+    for no water, +30 max for navy only."
+  displayName: Erebos Lakes
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2NlrSE2CMUyFpxlComtj%2Fphoto%2F8FEQycvtDunBdXWLrthU-Erebos_minimap.jpg?alt=media&token=a25c6d09-e5b1-4104-a79d-b4193003acd7
+      lastModifiedTS: 1701733286989
+      name: Erebos_minimap.jpg
+      ref: maps/2NlrSE2CMUyFpxlComtj/photo/8FEQycvtDunBdXWLrthU-Erebos_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Erebos Lakes v1.0
+  startboxesSet:
+    VNzNNXVRToo4X3Xuu7oR:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 90
+            - x: 48
+              y: 200
+        - poly:
+            - x: 152
+              y: 1
+            - x: 200
+              y: 110
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - sea
+    - shallows
 2foOuFOeWdmm1DkMqfJv:
   author: Nikuksis
   backgroundImage:
@@ -1820,7 +1857,7 @@
       ref: maps/9pCv5iZ1gaLWioi1A8KJ/photo/e6KcfYWnj72WunjwrEkD-altored_divide_bar_remake_1.6.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Altored Divide Bar Remake 1.6
+  springName: Altored Divide Bar Remake 1.6.1
   startboxesSet:
     4PWp6BvDUoturlJDUXfu:
       maxPlayersPerStartbox: 5
@@ -8924,13 +8961,13 @@ gEgiWXCvonENJseDsfjj:
       ref: maps/gEgiWXCvonENJseDsfjj/perspectiveShot/QE63Qa9Hu5LC5KPCEXPc-bismuth3d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2Fphoto%2Fek4tA3g2tuV8wEDra6T9-BV2_texture.jpg?alt=media&token=090631c3-8c02-43d5-935c-b627a7a84edf
-      lastModifiedTS: 1701603031355
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2Fphoto%2FB0iIFotS42HfTxFOLCzH-BV2_texture.jpg?alt=media&token=2f4c9ee7-306c-4d21-87cf-69ff45e9417f
+      lastModifiedTS: 1701690279540
       name: BV2_texture.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/photo/ek4tA3g2tuV8wEDra6T9-BV2_texture.jpg
+      ref: maps/gEgiWXCvonENJseDsfjj/photo/B0iIFotS42HfTxFOLCzH-BV2_texture.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Bismuth Valley v2.4
+  springName: Bismuth Valley v2.4.1
   startboxesSet:
     C3fyMtWQN4KLZZbILWDJ:
       maxPlayersPerStartbox: 8
