@@ -1288,18 +1288,19 @@
       ref: maps/4WiZnMfXPyjUARuQumRM/backgroundImage/ePBuvg6jCtbnVlAppdfv-screen_2023-11-24_23-46-09-486.png
       type: image/png
   certified: true
+  description: 4v4 to 8v8 map.
   displayName: Hades Ponds
   gameType:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4WiZnMfXPyjUARuQumRM/photo/LR7OxeaX03rY7TsdugRH-Hades_Ponds_0.7.jpg
-      lastModifiedTS: 1683982256150
-      name: Hades_Ponds_0.7.jpg
-      ref: maps/4WiZnMfXPyjUARuQumRM/photo/LR7OxeaX03rY7TsdugRH-Hades_Ponds_0.7.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4WiZnMfXPyjUARuQumRM%2Fphoto%2FBpwVNhTcDKyexq8276Le-hades_ponds_v1_minimap.jpg?alt=media&token=77c5f3bf-e6dd-4e4a-9c3d-3d2b1de45a23
+      lastModifiedTS: 1706397514970
+      name: hades_ponds_v1_minimap.jpg
+      ref: maps/4WiZnMfXPyjUARuQumRM/photo/BpwVNhTcDKyexq8276Le-hades_ponds_v1_minimap.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Hades Ponds 0.7
+  springName: Hades Ponds 1.0
   startboxesSet:
     1JM0wTOA7VXzj3ciiFwt:
       maxPlayersPerStartbox: 8
@@ -2312,6 +2313,43 @@ An6zReiqIWD15Yx7bZ3b:
     - grassy
     - chokepoints
   title: Start Small
+B8dWp2FEAk7BY2XCOAYt:
+  author: Phalange
+  certified: false
+  description: 4v4-8v8 map
+  displayName: Salt Reef
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FB8dWp2FEAk7BY2XCOAYt%2Fphoto%2Fq02azkJPPP9j56lw5VcM-salt_reef_minimap.jpg?alt=media&token=b4635078-edb7-4d76-82dd-f5468e5f0b7a
+      lastModifiedTS: 1707173084836
+      name: salt_reef_minimap.jpg
+      ref: maps/B8dWp2FEAk7BY2XCOAYt/photo/q02azkJPPP9j56lw5VcM-salt_reef_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  special: ""
+  springName: Salt Reef v0.9
+  startboxesSet:
+    A6XEUGsxCKGTarHR8KRo:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - alien
+    - flat
+    - hills
+  title: ""
 BCDbKYnQqHT1PE5lo8Es:
   author: Nikuksis
   backgroundImage:
@@ -4261,7 +4299,7 @@ LutAHarULFOEKKA21AvQ:
     - hills
     - desert
 MDi3gNqaTj3H1DkzpPfz:
-  author: Moose, Beherith
+  author: Moose, Beherith, Johannes
   backgroundImage:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2Fq9zDsFLKUwBG0AnS7eng-screen_2023-11-25_03-09-44-258.png?alt=media&token=ac986dcb-24de-4992-87cb-a330a8a353cb
       lastModifiedTS: 1700881784662
@@ -5210,6 +5248,68 @@ RT3Y6Qyjvt3pTGXWjWPK:
     - lava
     - hills
     - flat
+RTxWSdffMT8Mb8ixqKdL:
+  author: Moose, FlorisXIV
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FbackgroundImage%2FbidtzJ8zg5I7mkFxNZjh-screen_2024-02-06_00-37-43-712.png?alt=media&token=fdfcfe9c-dbcb-47da-b306-cd96079ed1b4
+      lastModifiedTS: 1707179864152
+      name: screen_2024-02-06_00-37-43-712.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/backgroundImage/bidtzJ8zg5I7mkFxNZjh-screen_2024-02-06_00-37-43-712.png
+      type: image/png
+  certified: true
+  description: Map for 1v1 - 3v3. Start locations are relatively close for a 14x14
+    map. Watch your back, start points are surrounded by hills.
+  displayName: Hide and Seek
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2FDxJAycYiZ9WqXhP8AHu5-screen_2024-02-06_00-36-40-906.png?alt=media&token=cf9072e6-bb40-475b-b8cd-17961a1e61fc
+      lastModifiedTS: 1707179801310
+      name: screen_2024-02-06_00-36-40-906.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/DxJAycYiZ9WqXhP8AHu5-screen_2024-02-06_00-36-40-906.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2F1E2noFjUsOEMfIzVCrSk-screen_2024-02-06_00-36-14-109.png?alt=media&token=da4b7ea6-784e-48d8-88d2-ae4b5c4c722c
+      lastModifiedTS: 1707179774505
+      name: screen_2024-02-06_00-36-14-109.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/1E2noFjUsOEMfIzVCrSk-screen_2024-02-06_00-36-14-109.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2FXKzAuwODV16yfoOQ7p29-screen_2024-02-06_00-39-17-106.png?alt=media&token=07b85c9d-60ae-470a-a8be-2b1a83bd4667
+      lastModifiedTS: 1707179957571
+      name: screen_2024-02-06_00-39-17-106.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/XKzAuwODV16yfoOQ7p29-screen_2024-02-06_00-39-17-106.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2Fphoto%2FEpz7fXFr2ypYIVnEQ2jd-hideseekmini2.png?alt=media&token=12128807-4331-4699-95f2-f0817a754466
+      lastModifiedTS: 1707350815467
+      name: hideseekmini2.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/photo/Epz7fXFr2ypYIVnEQ2jd-hideseekmini2.png
+      type: image/png
+  playerCount: 6
+  springName: Hide and Seek 2.2
+  startboxesSet:
+    KUM2lvbDmB3aBmgGxomo:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 52
+              y: 116
+            - x: 68
+              y: 156
+        - poly:
+            - x: 134
+              y: 44
+            - x: 150
+              y: 84
+  teamCount: 2
+  terrain:
+    - chokepoints
+    - grassy
+    - hills
+    - forests
+    - jungle
+  title: Watch your back!
 SHA84LfmzYbxT8iIyTtU:
   author: Beherith
   backgroundImage:
@@ -6995,6 +7095,7 @@ Yhwa2neMfDTUXyAiSJXC:
       ref: maps/Yhwa2neMfDTUXyAiSJXC/photo/cVt2sPXh7Yl4SgLhpn1C-incandescence_remake_3.3.jpg
       type: image/jpeg
   playerCount: 10
+  special: Lava
   springName: Incandescence Remake 3.3.1
   startboxesSet:
     Kf0DEEe450YknULqebMI:
@@ -7895,16 +7996,17 @@ bjT21UjhlZ3s2nrZ850V:
   gameType:
     - pve
     - team
+    - ffa
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbjT21UjhlZ3s2nrZ850V%2Fphoto%2F7Ndg7PuqRmjK5VnUJe4E-photo.png?alt=media&token=b6a21286-7639-4ba5-ae37-f88912fea8d7
-      lastModifiedTS: 1703138862188
-      name: photo.png
-      ref: maps/bjT21UjhlZ3s2nrZ850V/photo/7Ndg7PuqRmjK5VnUJe4E-photo.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbjT21UjhlZ3s2nrZ850V%2Fphoto%2FZEHKvCAEy9CupGfm91Qc-fullmetalscreen.png?alt=media&token=1afa1e68-a82b-4270-967c-090072da0c90
+      lastModifiedTS: 1707116700809
+      name: fullmetalscreen.png
+      ref: maps/bjT21UjhlZ3s2nrZ850V/photo/ZEHKvCAEy9CupGfm91Qc-fullmetalscreen.png
       type: image/png
   playerCount: 16
   special: Metal
-  springName: Full Metal Plate 1.5
+  springName: Full Metal Plate 1.7
   startboxesSet:
     aD4vGDHyakLc2j4X8ZlT:
       maxPlayersPerStartbox: 8
@@ -10814,7 +10916,7 @@ rC0RO0MGRS9ckbGJdGG1:
       type: image/jpeg
   playerCount: 16
   special: Asymmetrical
-  springName: Crimson Bay v1.1
+  springName: Crimson Bay v1.1a
   startboxesSet:
     1IEbhaTSgcVwXCoKZHF7:
       maxPlayersPerStartbox: 1
