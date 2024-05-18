@@ -1486,19 +1486,19 @@
       type: image/png
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FzbU35jVDGDD27oK21sMj-HB%203D.png?alt=media&token=9026eb18-2f2c-4c56-a955-0c47dca441c4
-      lastModifiedTS: 1713722613276
-      name: HB 3D.png
-      ref: maps/5qY4GxEPrIG1wfxBkbQ0/perspectiveShot/zbU35jVDGDD27oK21sMj-HB 3D.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FLCzPEPUn9vJVpayJuGaM-hellas1.43d.png?alt=media&token=7e75812f-cb6d-4c20-bd5a-9c9928a3201e
+      lastModifiedTS: 1714938436169
+      name: hellas1.43d.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/perspectiveShot/LCzPEPUn9vJVpayJuGaM-hellas1.43d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2Fphoto%2FIEu3JlxJbA6LI8Ms1e9L-hellas1.3.png?alt=media&token=e2745ad8-35cf-48b7-8522-3b9a39616651
-      lastModifiedTS: 1714843490949
-      name: hellas1.3.png
-      ref: maps/5qY4GxEPrIG1wfxBkbQ0/photo/IEu3JlxJbA6LI8Ms1e9L-hellas1.3.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2Fphoto%2FDQe09QWG9gAULuT6Kjwh-hellas1.4.png?alt=media&token=815fe34a-4f15-4166-a689-6bc753d33861
+      lastModifiedTS: 1714938328838
+      name: hellas1.4.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/photo/DQe09QWG9gAULuT6Kjwh-hellas1.4.png
       type: image/png
   playerCount: 16
-  springName: Hellas Basin v1.3
+  springName: Hellas Basin v1.4
   startboxesSet:
     qxnzzifwTy5FTgDHvQpl:
       maxPlayersPerStartbox: 8
@@ -11169,46 +11169,53 @@ oHTuEk42qfvZt8tddOnA:
 oX7eHI8mlpVvJUYs4v4Y:
   author: Nikuksis
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FbackgroundImage%2FldKsBNTJxbzzcrkwA5Cc-All_that-Glitters%20overview.jpg?alt=media&token=3abb7cf6-41d6-41ae-83a2-61a11ddf3791
-      lastModifiedTS: 1680254595156
-      name: All_that-Glitters overview.jpg
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/backgroundImage/ldKsBNTJxbzzcrkwA5Cc-All_that-Glitters
-        overview.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FbackgroundImage%2FBuWMiQtTLF4JY5d0dCco-screen_2024-05-14_10-58-47-367.png?alt=media&token=18a754a2-8bc9-4d6a-95cd-e050640e5e03
+      lastModifiedTS: 1715684328106
+      name: screen_2024-05-14_10-58-47-367.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/backgroundImage/BuWMiQtTLF4JY5d0dCco-screen_2024-05-14_10-58-47-367.png
+      type: image/png
   certified: true
   description: Mesa with both flat and canyon areas
   displayName: All That Glitters
   gameType:
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2FjFY1zoXCj35llnkte9cB-All_that-Glitters_SS%201.jpg?alt=media&token=fc8cee34-4c9a-4207-83b2-f9153167d307
-      lastModifiedTS: 1680254581640
-      name: All_that-Glitters_SS 1.jpg
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/jFY1zoXCj35llnkte9cB-All_that-Glitters_SS
-        1.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2F9WPH4bfG3g6h2aN3uoec-All_that-Glitters_SS%202.jpg?alt=media&token=1b52d07e-9c1d-4a17-9ba8-8af26feb54a3
-      lastModifiedTS: 1680254585407
-      name: All_that-Glitters_SS 2.jpg
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/9WPH4bfG3g6h2aN3uoec-All_that-Glitters_SS
-        2.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2FuZMQmjITXYTQRmTcGH7J-screen_2024-05-14_10-58-47-367.png?alt=media&token=39d4bbc2-3bd9-4eed-a3b2-999ffa8205f4
+      lastModifiedTS: 1715684328106
+      name: screen_2024-05-14_10-58-47-367.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/uZMQmjITXYTQRmTcGH7J-screen_2024-05-14_10-58-47-367.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2FiARAqILnLeYp7EQVBUB3-screen_2024-05-14_10-58-57-609.png?alt=media&token=ac29bf83-3c50-4f2e-b406-a06e25776bce
+      lastModifiedTS: 1715684338406
+      name: screen_2024-05-14_10-58-57-609.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/iARAqILnLeYp7EQVBUB3-screen_2024-05-14_10-58-57-609.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2FEV5nuaO3zJW5qIhsJfz7-screen_2024-05-14_10-59-29-971.png?alt=media&token=fe099442-1c86-40eb-9ef6-ae1ec229f8bb
+      lastModifiedTS: 1715684370721
+      name: screen_2024-05-14_10-59-29-971.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/EV5nuaO3zJW5qIhsJfz7-screen_2024-05-14_10-59-29-971.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2FaLNdHRuL6YFR7ltNePPr-screen_2024-05-14_10-59-11-872.png?alt=media&token=2634f795-a32a-41c2-8948-11612c4ed59b
+      lastModifiedTS: 1715684352629
+      name: screen_2024-05-14_10-59-11-872.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/aLNdHRuL6YFR7ltNePPr-screen_2024-05-14_10-59-11-872.png
+      type: image/png
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FwVqMHCRItv4aoTUrXUS7-All_that-Glitters_0.8%20perspect.png?alt=media&token=5e22794e-17ee-4ac0-bf0f-09612bf0ac43
-      lastModifiedTS: 1680254589476
-      name: All_that-Glitters_0.8 perspect.png
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/perspectiveShot/wVqMHCRItv4aoTUrXUS7-All_that-Glitters_0.8
-        perspect.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FsCkj0ik3ZN1GJ4MfaGV5-ATG%202.2%203d.png?alt=media&token=fe70f966-fab7-4b48-ab0e-8e407295bc59
+      lastModifiedTS: 1715684917291
+      name: ATG 2.2 3d.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/perspectiveShot/sCkj0ik3ZN1GJ4MfaGV5-ATG 2.2
+        3d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2Fphoto%2F9bupA6vF1azqdEGoBqw7-all_that_glitters_v2.1.jpg?alt=media&token=96768372-bde0-460f-bbeb-d77e8539e492
-      lastModifiedTS: 1684275889294
-      name: all_that_glitters_v2.1.jpg
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/photo/9bupA6vF1azqdEGoBqw7-all_that_glitters_v2.1.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2Fphoto%2FR43boUPTUQdr3RmbcU1d-ATG%202.2.png?alt=media&token=af9a1ce1-998a-46a0-926a-b49a06a34a2c
+      lastModifiedTS: 1715684778284
+      name: ATG 2.2.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/photo/R43boUPTUQdr3RmbcU1d-ATG 2.2.png
+      type: image/png
   playerCount: 16
-  springName: All That Glitters v2.1
+  springName: All That Glitters v2.2
   startboxesSet:
     CSxs9XHI6Fe1a9N8ZIMX:
       maxPlayersPerStartbox: 8
@@ -11981,6 +11988,74 @@ t85qIzP8X1hqJ5gWEPGM:
     - flat
     - alien
     - asymmetrical
+taMTVVZKAKbYywe7tyRb:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FbackgroundImage%2FVqiiuRfngBPV0eUIMMY0-screen_2024-05-17_19-41-54-445.png?alt=media&token=f39fddc3-d4cf-416f-8067-f7d77e3bb404
+      lastModifiedTS: 1715974915088
+      name: screen_2024-05-17_19-41-54-445.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/backgroundImage/VqiiuRfngBPV0eUIMMY0-screen_2024-05-17_19-41-54-445.png
+      type: image/png
+  certified: true
+  description: Friday afternoon tar.
+  displayName: The Tartar Steppe
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2FUFUu97LBKCHFnIOQ1cij-screen_2024-05-17_19-41-58-748.png?alt=media&token=8976849f-eb7f-49ce-9de4-c2ab9e592246
+      lastModifiedTS: 1715974919501
+      name: screen_2024-05-17_19-41-58-748.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/UFUu97LBKCHFnIOQ1cij-screen_2024-05-17_19-41-58-748.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2F9MNXOaNon6OrIpZGAZnG-screen_2024-05-17_19-42-04-187.png?alt=media&token=7236575c-bf1e-4bfb-95fa-2f95b2029fb5
+      lastModifiedTS: 1715974924879
+      name: screen_2024-05-17_19-42-04-187.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/9MNXOaNon6OrIpZGAZnG-screen_2024-05-17_19-42-04-187.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2FhmTuiWZ2dfFN3e5HWsrB-screen_2024-05-17_19-41-54-445.png?alt=media&token=34cc5c69-8beb-4d3b-a40a-d1675c5ef7ed
+      lastModifiedTS: 1715974915088
+      name: screen_2024-05-17_19-41-54-445.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/hmTuiWZ2dfFN3e5HWsrB-screen_2024-05-17_19-41-54-445.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2FlrFtnJtado8YwgXPOxyn-screen_2024-05-17_19-41-44-549.png?alt=media&token=04d6b1c7-5a92-4bcf-9999-32ec7c13f81b
+      lastModifiedTS: 1715974905225
+      name: screen_2024-05-17_19-41-44-549.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/lrFtnJtado8YwgXPOxyn-screen_2024-05-17_19-41-44-549.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FperspectiveShot%2F5QTQknQYcRdoymt8d42T-tartar%203d.png?alt=media&token=616a8671-ba2b-4abe-972a-cdca5c2a4571
+      lastModifiedTS: 1715976377879
+      name: tartar 3d.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/perspectiveShot/5QTQknQYcRdoymt8d42T-tartar
+        3d.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2Fphoto%2FpAROxktDcmLodCRbV4qY-tartar_mini.png?alt=media&token=0cf83aee-97dd-4e43-98f4-9a5b65375cb7
+      lastModifiedTS: 1715976317794
+      name: tartar_mini.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/photo/pAROxktDcmLodCRbV4qY-tartar_mini.png
+      type: image/png
+  playerCount: 16
+  springName: The Tartar Steppe v1.0
+  startboxesSet:
+    tzBDplnMfTRPH0H4BYcH:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
+    - swamp
 te9bV2b9aiw8w9qgzTJg:
   author: Nikuksis
   backgroundImage:
@@ -12078,13 +12153,14 @@ te9bV2b9aiw8w9qgzTJg:
 u17mWZp6jqx5b5s0Or5z:
   author: Phalange
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FbackgroundImage%2FHAPZZZ9AdEwQHqcM6jHM-theta_crystals_bg.jpg?alt=media&token=be653eab-fd60-4fc1-abf5-6b23ee3c93f6
-      lastModifiedTS: 1714919415868
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FbackgroundImage%2FYyJFZuKwsL6NfzjqDQNj-theta_crystals_bg.jpg?alt=media&token=d0827c7e-029f-44dc-a266-be4ca81d1ffc
+      lastModifiedTS: 1715179862454
       name: theta_crystals_bg.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/backgroundImage/HAPZZZ9AdEwQHqcM6jHM-theta_crystals_bg.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/backgroundImage/YyJFZuKwsL6NfzjqDQNj-theta_crystals_bg.jpg
       type: image/jpeg
   certified: false
-  description: Team map. Color palette based on Crystallized Plains by Moose.
+  description: Team map. 3 metal spots only reachable by air. Color palette based
+    on Crystallized Plains by Moose.
   displayName: Theta Crystals
   gameType:
     - team
@@ -12110,13 +12186,13 @@ u17mWZp6jqx5b5s0Or5z:
       ref: maps/u17mWZp6jqx5b5s0Or5z/perspectiveShot/sdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2Fphoto%2F0WQDIWnzY3xh3pwhnd94-theta_crystals_minimap.jpg?alt=media&token=8a98bb86-701e-45f6-82bc-59ce48a0c42a
-      lastModifiedTS: 1714919313881
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2Fphoto%2FBihearCCwPoZuUBIePkp-theta_crystals_minimap.jpg?alt=media&token=e4fd9a5b-32da-41ed-a410-701802ec72e5
+      lastModifiedTS: 1715179804224
       name: theta_crystals_minimap.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/photo/0WQDIWnzY3xh3pwhnd94-theta_crystals_minimap.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/photo/BihearCCwPoZuUBIePkp-theta_crystals_minimap.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Theta Crystals 1.2
+  springName: Theta Crystals 1.3
   startboxesSet:
     TCF49ZiiKLtHcKt1YnJe:
       maxPlayersPerStartbox: 4
