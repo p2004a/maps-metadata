@@ -6,8 +6,8 @@ import path from 'node:path';
 import { pipeline } from 'node:stream/promises';
 import { createHash } from 'node:crypto';
 import got from 'got';
-import Webflow from 'webflow-api';
-import { Item as WebflowItem, Collection as WebflowCollection } from 'webflow-api/dist/api';
+import { WebflowClient } from 'webflow-api';
+import { CollectionItem as WebflowItem, Collection as WebflowCollection } from 'webflow-api/dist/api';
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
 import { readMapList, fetchMapsMetadata, getParsedMapLocation } from './maps_metadata.js';
@@ -209,10 +209,11 @@ interface WebflowMapTag extends WebsiteMapTag { }
 // WebflowMapTag is the native Webflow representation of a tag as used by the
 // Webflow API.
 class WebflowMapTag implements IWebflowItem {
-    item: WebflowItem & WebflowMapTagFieldsRead;
+    item: WebflowItem;
 
     constructor(item: WebflowItem) {
-        const o = this.item = item as WebflowItem & WebflowMapTagFieldsRead;
+        this.item = item;
+        const o = item.fieldData as WebflowMapTagFieldsRead;
 
         this.name = o.name;
         this.slug = o.slug;
@@ -222,8 +223,6 @@ class WebflowMapTag implements IWebflowItem {
         return {
             name: tag.name,
             slug: tag.slug,
-            _archived: false,
-            _draft: false,
         };
     }
 }
@@ -240,10 +239,11 @@ interface WebflowMapTerrain extends WebsiteMapTerrain { }
 // WebflowMapTerrain is the native Webflow representation of a Terrain as used by the
 // Webflow API.
 class WebflowMapTerrain implements IWebflowItem {
-    item: WebflowItem & WebflowMapTerrainFieldsRead;
+    item: WebflowItem;
 
     constructor(item: WebflowItem) {
-        const o = this.item = item as WebflowItem & WebflowMapTerrainFieldsRead;
+        this.item = item;
+        const o = item.fieldData as WebflowMapTerrainFieldsRead;
 
         this.name = o.name;
         this.slug = o.slug;
@@ -253,8 +253,6 @@ class WebflowMapTerrain implements IWebflowItem {
         return {
             name: terrain.name,
             slug: terrain.slug,
-            _archived: false,
-            _draft: false,
         };
     }
 }
@@ -325,10 +323,11 @@ interface WebflowMapInfo extends WebsiteMapInfo { }
 // WebflowMap is the native Webflow representation of data as used by the
 // Webflow API.
 class WebflowMapInfo {
-    item: WebflowItem & WebflowMapFieldsRead;
+    item: WebflowItem;
 
     constructor(item: WebflowItem) {
-        const o = this.item = item as WebflowItem & WebflowMapFieldsRead;
+        this.item = item as WebflowItem;
+        const o = item.fieldData as WebflowMapFieldsRead;
 
         this.name = o.name;
         this.rowyId = reqRStr(o.rowyid);
@@ -360,11 +359,9 @@ class WebflowMapInfo {
         return {
             name: info.name,
             slug: slugFromName(info.name),
-            _archived: false,
-            _draft: false,
             rowyid: info.rowyId,
-            minimap: await pickImage(info.minimapUrl, base?.item.minimap),
-            'minimap-photo-thumb': await pickImage(info.minimapThumbUrl, base?.item['minimap-photo-thumb']),
+            minimap: await pickImage(info.minimapUrl, base?.item.fieldData.minimap),
+            'minimap-photo-thumb': await pickImage(info.minimapThumbUrl, base?.item.fieldData['minimap-photo-thumb']),
             downloadurl: info.downloadUrl,
             width: info.width,
             height: info.height,
@@ -372,17 +369,17 @@ class WebflowMapInfo {
             title: info.title,
             description: info.description,
             author: info.author,
-            'bg-image': info.bgImageUrl ? await pickImage(info.bgImageUrl, base?.item['bg-image']) : null,
-            'perspective-shot': info.perspectiveShotUrl ? await pickImage(info.perspectiveShotUrl, base?.item['perspective-shot']) : null,
-            'more-images': await pickImages(info.moreImagesUrl, base?.item['more-images']),
+            'bg-image': info.bgImageUrl ? await pickImage(info.bgImageUrl, base?.item.fieldData['bg-image']) : null,
+            'perspective-shot': info.perspectiveShotUrl ? await pickImage(info.perspectiveShotUrl, base?.item.fieldData['perspective-shot']) : null,
+            'more-images': await pickImages(info.moreImagesUrl, base?.item.fieldData['more-images']),
             'wind-min': info.windMin,
             'wind-max': info.windMax,
             'tidal-strength': info.tidalStrength,
             'team-count': info.teamCount,
             'max-players': info.maxPlayers,
-            'mini-map': await pickImage(info.textureMapUrl, base?.item['mini-map']),
-            'height-map': await pickImage(info.heightMapUrl, base?.item['height-map']),
-            'metal-map': await pickImage(info.metalMapUrl, base?.item['metal-map']),
+            'mini-map': await pickImage(info.textureMapUrl, base?.item.fieldData['mini-map']),
+            'height-map': await pickImage(info.heightMapUrl, base?.item.fieldData['height-map']),
+            'metal-map': await pickImage(info.metalMapUrl, base?.item.fieldData['metal-map']),
             'game-tags-ref-2': info.mapTags,
             'terrain-types': info.mapTerrains,
         };
@@ -506,12 +503,12 @@ async function buildWebflowInfo(
     return [mapInfo, allMapTags];
 }
 
-async function getFieldCollection(field: keyof WebflowMapFieldsRead, mapCollection: WebflowCollection, webflow: Webflow): Promise<WebflowCollection> {
+async function getFieldCollection(field: keyof WebflowMapFieldsRead, mapCollection: WebflowCollection, webflow: WebflowClient): Promise<WebflowCollection> {
     const fields = mapCollection.fields.filter(f => f.slug === field);
     if (fields.length !== 1) {
         throw new Error(`Expected one field with slug '${field}' in ${mapCollection.slug}, got ${fields.length}`);
     }
-    return await webflow.collection({ collectionId: fields[0].validations!.collectionId });
+    return await webflow.collections.get(fields[0].validations!.collectionId);
 }
 
 
@@ -525,7 +522,7 @@ function resolveItemRefsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, field:
                 }
                 throw new Error(`Missing ${field} ${ref}`);
             }
-            return t.item._id;
+            return t.item.id;
         });
     }
 }
@@ -534,11 +531,11 @@ async function getAllWebflowItems(collection: WebflowCollection): Promise<Webflo
     const items: WebflowItem[] = [];
     const limit = 100;
     for (let offset = 0; true; offset += limit) {
-        const response = await limiter.schedule(() => collection.items({ limit, offset }));
-        if (response.length === 0) {
+        const response = await limiter.schedule(() => webflow.collections.items.listItems(collection.id, { limit, offset }));
+        if (!response.items || response.items.length === 0) {
             break;
         }
-        items.push(...response);
+        items.push(...response.items);
     }
     return items;
 }
@@ -716,14 +713,14 @@ async function syncMapsToWebflow(
 async function publishUpdatedWebflowItems(mapsCollection: WebflowCollection, items: Map<any, { item: WebflowItem }>, dryRun: boolean) {
     const itemIds = Array.from(items.values())
         .map(i => i.item)
-        .filter(i => !i['published-on'] || Date.parse(i['published-on']) < Date.parse(i['updated-on']))
-        .map(i => i._id);
+        .filter(i => !i.lastPublished || Date.parse(i.lastPublished) < Date.parse(i.lastUpdated!))
+        .map(i => i.id);
     console.log(`Publishing ${itemIds.length} items`);
     if (!dryRun) {
         const chunkSize = 100;
         for (let i = 0; i < itemIds.length; i += chunkSize) {
             const itemIdsChunk = itemIds.slice(i, i + chunkSize);
-            await limiter.schedule(() => webflow.publishItems({ collectionId: mapsCollection._id, itemIds: itemIdsChunk }));
+            await limiter.schedule(() => webflow.collections.items.publishItem(mapsCollection.id, { itemIds: itemIdsChunk }));
         }
     }
 }
@@ -734,12 +731,12 @@ if (!process.env.WEBFLOW_COLLECTION_ID || !process.env.WEBFLOW_API_TOKEN) {
     console.error('Missing WEBFLOW_COLLECTION_ID or WEBFLOW_API_TOKEN');
     process.exit(1);
 }
-const webflow = new Webflow({ token: process.env.WEBFLOW_API_TOKEN });
+const webflow = new WebflowClient({ accessToken: process.env.WEBFLOW_API_TOKEN });
 const limiter = new Bottleneck({ maxConcurrent: 1, minTime: 600 });
 const mapsCollectionId = process.env.WEBFLOW_COLLECTION_ID;
 
 async function syncCommand(dryRun: boolean) {
-    const mapsCollection = await limiter.schedule(() => webflow.collection({ collectionId: mapsCollectionId }));
+    const mapsCollection = await limiter.schedule(() => webflow.collections.get(mapsCollectionId));
     const webflowMaps = await getAllWebflowMaps(mapsCollection);
     const mapTagsCollection = await getFieldCollection('game-tags-ref-2', mapsCollection, webflow);
     const webflowMapTags = await getAllWebflowMapTags(mapTagsCollection);
@@ -784,7 +781,7 @@ program.command('sync')
 program.command('dump-data')
     .description('Dumps Webflow collection data.')
     .action(async () => {
-        const mapsCollection = await limiter.schedule(() => webflow.collection({ collectionId: mapsCollectionId }));
+        const mapsCollection = await limiter.schedule(() => webflow.collections.get(mapsCollectionId));
         const webflowMaps = await getAllWebflowMaps(mapsCollection);
         console.log(util.inspect(webflowMaps, { showHidden: false, depth: null, colors: true }));
 
