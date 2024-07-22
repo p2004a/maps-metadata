@@ -1941,13 +1941,13 @@
       ref: maps/9jHSyg8smAwuk6d3HZgm/perspectiveShot/jLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2Fphoto%2FeV7wZ3UYCBEldP95CFXZ-canis_river_minimap.jpg?alt=media&token=97f2c02b-c52c-40ad-9e30-f30a856ff3db
-      lastModifiedTS: 1713114605061
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2Fphoto%2FD6aSxk25DPbFmhPo9uiD-canis_river_minimap.jpg?alt=media&token=9b050117-ad9b-416c-87f8-badcc5fc1acf
+      lastModifiedTS: 1721590806085
       name: canis_river_minimap.jpg
-      ref: maps/9jHSyg8smAwuk6d3HZgm/photo/eV7wZ3UYCBEldP95CFXZ-canis_river_minimap.jpg
+      ref: maps/9jHSyg8smAwuk6d3HZgm/photo/D6aSxk25DPbFmhPo9uiD-canis_river_minimap.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Canis River v1.3
+  springName: Canis River v1.4
   startboxesSet:
     zbyES4JZd2FCS1vCVByX:
       maxPlayersPerStartbox: 4
@@ -9604,46 +9604,6 @@ etCTTwexgYVGMV63rOWy:
     - hills
     - shallows
     - swamp
-ffcRgoowl7oVucXlFmWS:
-  author: Ambulatory Cortex
-  backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FffcRgoowl7oVucXlFmWS%2FbackgroundImage%2Fe8BEoTFIS2JnDWODNaXu-screen_2024-01-13_15-15-39-078.png?alt=media&token=65c19bce-1063-486a-8f84-2536dfc92529
-      lastModifiedTS: 1705158939729
-      name: screen_2024-01-13_15-15-39-078.png
-      ref: maps/ffcRgoowl7oVucXlFmWS/backgroundImage/e8BEoTFIS2JnDWODNaXu-screen_2024-01-13_15-15-39-078.png
-      type: image/png
-  certified: true
-  description: Brawl in a volcanic caldera
-  displayName: Pit of Azar
-  gameType:
-    - team
-  inPool: false
-  photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FffcRgoowl7oVucXlFmWS%2Fphoto%2FzE4nRNIYVlX1LtiP3sCJ-Pit%20of%20Azar%20mini.png?alt=media&token=f60e742c-d058-455b-9afe-e071e93e303b
-      lastModifiedTS: 1705164953033
-      name: Pit of Azar mini.png
-      ref: maps/ffcRgoowl7oVucXlFmWS/photo/zE4nRNIYVlX1LtiP3sCJ-Pit of Azar mini.png
-      type: image/png
-  playerCount: 16
-  springName: Pit of Azar 1.0
-  startboxesSet:
-    hvpmzLN2LzPIQYmIgqEt:
-      maxPlayersPerStartbox: 8
-      startboxes:
-        - poly:
-            - x: 39
-              y: 58
-            - x: 58
-              y: 107
-        - poly:
-            - x: 142
-              y: 92
-            - x: 160
-              y: 142
-  teamCount: 2
-  terrain:
-    - lava
-    - chokepoints
 fivY9RQRkefErWygMT09:
   author: Beherith
   backgroundImage:
@@ -13813,7 +13773,8 @@ zzzzzzzzzzzzzzzzzzzx:
         5.jpg
       type: image/jpeg
   certified: true
-  description: 4 elevated islands amongst a sea of smaller islands
+  description: 4 elevated islands amongst a sea of smaller islands. Version 5.17
+    with fixed metal.
   displayName: Acidic Quarry
   gameType:
     - team
@@ -13841,7 +13802,7 @@ zzzzzzzzzzzzzzzzzzzx:
       type: image/jpeg
   playerCount: 4
   special: Air
-  springName: AcidicQuarry 5.16
+  springName: AcidicQuarry 5.17
   startboxesSet:
     jQ1ExbgkVcIewfWrMkBi:
       maxPlayersPerStartbox: 1
