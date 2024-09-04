@@ -24,6 +24,95 @@
   playerCount: 16
   special: Lava
   springName: Thermal Shock v1.1
+  startPos:
+    positions:
+      P1:
+        x: 1302
+        y: 494
+      P10:
+        x: 9228
+        y: 7153
+      P11:
+        x: 7276
+        y: 8924
+      P12:
+        x: 7994
+        y: 7199
+      P13:
+        x: 6339
+        y: 7214
+      P14:
+        x: 5681
+        y: 8899
+      P15:
+        x: 4579
+        y: 7574
+      P16:
+        x: 4083
+        y: 9336
+      P2:
+        x: 3140
+        y: 1036
+      P3:
+        x: 1659
+        y: 2249
+      P4:
+        x: 3158
+        y: 2189
+      P5:
+        x: 2882
+        y: 3846
+      P6:
+        x: 979
+        y: 4062
+      P7:
+        x: 2447
+        y: 5574
+      P8:
+        x: 919
+        y: 6166
+      P9:
+        x: 9751
+        y: 8985
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: air
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front/tech
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: air
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front/tech
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     ndZ8MtPCWigfgd6iZRY2:
       maxPlayersPerStartbox: 8
@@ -1055,7 +1144,7 @@
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
-              - baseCenter: P17
+              - baseCenter: P18
                 role: front
                 spawnPoint: P12
               - role: air
@@ -1840,14 +1929,14 @@
         x: 2004
         y: 565
       P10:
-        x: 8241
-        y: 1548
+        x: 8223
+        y: 1572
       P11:
         x: 9650
         y: 1725
       P12:
-        x: 8218
-        y: 2725
+        x: 8184
+        y: 2809
       P13:
         x: 8211
         y: 3619
@@ -1855,7 +1944,7 @@
         x: 8224
         y: 4546
       P15:
-        x: 10046
+        x: 9954
         y: 4818
       P16:
         x: 8242
@@ -1867,20 +1956,20 @@
         x: 579
         y: 1732
       P4:
-        x: 2033
-        y: 2734
+        x: 2057
+        y: 2814
       P5:
         x: 2038
         y: 3628
       P6:
-        x: 2038
-        y: 4539
+        x: 2054
+        y: 4555
       P7:
-        x: 212
-        y: 4995
+        x: 296
+        y: 4967
       P8:
-        x: 2032
-        y: 5745
+        x: 1993
+        y: 5752
       P9:
         x: 8241
         y: 565
@@ -2120,6 +2209,95 @@
       type: image/jpeg
   playerCount: 16
   springName: Swirly Rock v1.1
+  startPos:
+    positions:
+      P1:
+        x: 3026
+        y: 470
+      P10:
+        x: 11615
+        y: 1534
+      P11:
+        x: 9212
+        y: 3278
+      P12:
+        x: 9216
+        y: 4382
+      P13:
+        x: 11870
+        y: 4800
+      P14:
+        x: 9215
+        y: 4937
+      P15:
+        x: 9413
+        y: 6136
+      P16:
+        x: 10110
+        y: 7744
+      P2:
+        x: 729
+        y: 1655
+      P3:
+        x: 3186
+        y: 3386
+      P4:
+        x: 3066
+        y: 4365
+      P5:
+        x: 403
+        y: 4606
+      P6:
+        x: 3058
+        y: 4933
+      P7:
+        x: 2863
+        y: 6123
+      P8:
+        x: 2226
+        y: 7657
+      P9:
+        x: 9269
+        y: 463
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     rW9FRx7Lbx5XJRaP4WHB:
       maxPlayersPerStartbox: 8
@@ -3139,6 +3317,95 @@ B8dWp2FEAk7BY2XCOAYt:
   playerCount: 16
   special: ""
   springName: Salt Reef 1.1
+  startPos:
+    positions:
+      P1:
+        x: 702
+        y: 553
+      P10:
+        x: 8797
+        y: 6344
+      P11:
+        x: 9696
+        y: 5363
+      P12:
+        x: 8423
+        y: 5159
+      P13:
+        x: 9404
+        y: 3743
+      P14:
+        x: 9043
+        y: 2593
+      P15:
+        x: 9697
+        y: 1523
+      P16:
+        x: 8437
+        y: 951
+      P2:
+        x: 1441
+        y: 1850
+      P3:
+        x: 539
+        y: 2807
+      P4:
+        x: 1859
+        y: 3006
+      P5:
+        x: 826
+        y: 4456
+      P6:
+        x: 1216
+        y: 5611
+      P7:
+        x: 552
+        y: 6684
+      P8:
+        x: 1804
+        y: 7259
+      P9:
+        x: 9558
+        y: 7664
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air/front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front/tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air/front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front/tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     A6XEUGsxCKGTarHR8KRo:
       maxPlayersPerStartbox: 8
@@ -3408,6 +3675,95 @@ Cz4OYo0Z2yht9PUP8vcN:
   playerCount: 16
   special: West vs South
   springName: Sulphur Springs v1.1
+  startPos:
+    positions:
+      P1:
+        x: 423
+        y: 9093
+      P10:
+        x: 4566
+        y: 10551
+      P11:
+        x: 5593
+        y: 11813
+      P12:
+        x: 6925
+        y: 10046
+      P13:
+        x: 8161
+        y: 11769
+      P14:
+        x: 9258
+        y: 10516
+      P15:
+        x: 10999
+        y: 11795
+      P16:
+        x: 11945
+        y: 11342
+      P2:
+        x: 1753
+        y: 7768
+      P3:
+        x: 813
+        y: 6729
+      P4:
+        x: 2086
+        y: 5487
+      P5:
+        x: 498
+        y: 4157
+      P6:
+        x: 1912
+        y: 3169
+      P7:
+        x: 443
+        y: 1254
+      P8:
+        x: 1071
+        y: 408
+      P9:
+        x: 3290
+        y: 11838
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front/tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: air
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front/tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: air
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     lAzRsHD2GUEcbqndUUFJ:
       maxPlayersPerStartbox: 8
@@ -4080,30 +4436,25 @@ FmRZtQ8Wvce6HgKj1uyZ:
     - team
     - 1v1
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FlkWdBoMEo0wfEQBdmHHu-screen_2024-03-13_04-12-26-677.png?alt=media&token=54bf60d8-3515-4314-978d-a44a22ea84c8
-      lastModifiedTS: 1710303147100
-      name: screen_2024-03-13_04-12-26-677.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/lkWdBoMEo0wfEQBdmHHu-screen_2024-03-13_04-12-26-677.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2Faq2xl8gxRAdDFQnqU2i0-screen_2024-09-03_20-43-52-684.png?alt=media&token=a0ad06ae-eeea-48b2-a07a-662f78e2d08a
+      lastModifiedTS: 1725396233328
+      name: screen_2024-09-03_20-43-52-684.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/aq2xl8gxRAdDFQnqU2i0-screen_2024-09-03_20-43-52-684.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FHtYEIgBckDP61CHn47dF-screen_2024-03-13_04-12-09-342.png?alt=media&token=ccc305f0-8177-4f3d-9145-66db0976a924
-      lastModifiedTS: 1710303129748
-      name: screen_2024-03-13_04-12-09-342.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/HtYEIgBckDP61CHn47dF-screen_2024-03-13_04-12-09-342.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FsjGLx4nVx0JSJI8YdbxC-screen_2024-03-13_04-11-25-575.png?alt=media&token=e576b2a7-820c-41d3-8b30-19b2a10c4398
-      lastModifiedTS: 1710303085974
-      name: screen_2024-03-13_04-11-25-575.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/sjGLx4nVx0JSJI8YdbxC-screen_2024-03-13_04-11-25-575.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FwqXa323SFoqqjaGNLJdj-screen_2024-09-03_20-44-33-934.png?alt=media&token=9a002704-8429-40ec-869f-f2ac9e92c777
+      lastModifiedTS: 1725396274349
+      name: screen_2024-09-03_20-44-33-934.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/wqXa323SFoqqjaGNLJdj-screen_2024-09-03_20-44-33-934.png
       type: image/png
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2Fphoto%2FOhCCVZ7kuM9ICiGPyqBn-wandermini2.png?alt=media&token=ff6a90e7-2852-43bd-a07c-05ffdb33ba99
-      lastModifiedTS: 1710304856620
-      name: wandermini2.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/photo/OhCCVZ7kuM9ICiGPyqBn-wandermini2.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2Fphoto%2FTNbhW1s0Q2x3H2GDhQ6b-wandermini3.png?alt=media&token=f4eacd2e-412d-4df1-b342-1f372533085f
+      lastModifiedTS: 1725383350163
+      name: wandermini3.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/photo/TNbhW1s0Q2x3H2GDhQ6b-wandermini3.png
       type: image/png
   playerCount: 6
-  springName: Wanderlust 2.0
+  springName: Wanderlust 2.1
   startboxesSet:
     cZjhFKlcaodsYUnFJdnB:
       maxPlayersPerStartbox: 3
@@ -5270,7 +5621,7 @@ Jdb4pZyLQPb0IkSmaVrO:
             - x: 0
               y: 0
             - x: 200
-              y: 50
+              y: 63
         - poly:
             - x: 0
               y: 150
@@ -6006,10 +6357,10 @@ PU301WL4OzdofkHuT9N9:
 PekWgagUAJmWoOua3BKS:
   author: Moose, SirArtturi
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FbackgroundImage%2FOYsUOAFnWpsgqro3atJF-screen_2024-03-01_19-38-49-715.png?alt=media&token=f39af804-6ded-4bf7-a0bb-105eed95b5dc
-      lastModifiedTS: 1709321930347
-      name: screen_2024-03-01_19-38-49-715.png
-      ref: maps/PekWgagUAJmWoOua3BKS/backgroundImage/OYsUOAFnWpsgqro3atJF-screen_2024-03-01_19-38-49-715.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FbackgroundImage%2FI54hBdSQQhVlGbjRth7s-screen_2024-09-03_20-47-47-933.png?alt=media&token=991051ca-65ce-4ac4-9236-31effa834372
+      lastModifiedTS: 1725396468364
+      name: screen_2024-09-03_20-47-47-933.png
+      ref: maps/PekWgagUAJmWoOua3BKS/backgroundImage/I54hBdSQQhVlGbjRth7s-screen_2024-09-03_20-47-47-933.png
       type: image/png
   certified: true
   description: A lush jungle with a large river contains dense vegetation and many
@@ -6018,37 +6369,32 @@ PekWgagUAJmWoOua3BKS:
   gameType:
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FxHzh2MX1BWEs1nwqQo97-screen_2024-03-01_19-37-37-198.png?alt=media&token=ab147fa1-0cd8-4825-8c21-88eb2e488f49
-      lastModifiedTS: 1709321857646
-      name: screen_2024-03-01_19-37-37-198.png
-      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/xHzh2MX1BWEs1nwqQo97-screen_2024-03-01_19-37-37-198.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FNAmNldtczdIkrXurUqfO-screen_2024-09-03_20-48-53-779.png?alt=media&token=8687d203-771a-494e-a6c7-5f1b6816fa58
+      lastModifiedTS: 1725396534213
+      name: screen_2024-09-03_20-48-53-779.png
+      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/NAmNldtczdIkrXurUqfO-screen_2024-09-03_20-48-53-779.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2F8ZBJejd23nwvJvxgHW9F-screen_2024-03-01_19-36-02-739.png?alt=media&token=26bf5bfa-f2f7-4bd9-ae22-ed06a361dbc6
-      lastModifiedTS: 1709321763160
-      name: screen_2024-03-01_19-36-02-739.png
-      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/8ZBJejd23nwvJvxgHW9F-screen_2024-03-01_19-36-02-739.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FHZTYRtuRshhNYFZ4O4UH-screen_2024-09-03_20-48-30-542.png?alt=media&token=0bddccbb-1312-48a3-8d45-4a111138c60f
+      lastModifiedTS: 1725396510986
+      name: screen_2024-09-03_20-48-30-542.png
+      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/HZTYRtuRshhNYFZ4O4UH-screen_2024-09-03_20-48-30-542.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FwSDLtaPaTkpBlBcifHIY-screen_2024-03-01_19-35-18-477.png?alt=media&token=3d6b969f-f470-44d0-be94-00e25259a2c4
-      lastModifiedTS: 1709321719033
-      name: screen_2024-03-01_19-35-18-477.png
-      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/wSDLtaPaTkpBlBcifHIY-screen_2024-03-01_19-35-18-477.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FqrjvmA0eWI0vA6rgDBwp-screen_2024-03-01_19-37-12-880.png?alt=media&token=d2f1c541-f3cf-482c-89ea-131c70e1e40e
-      lastModifiedTS: 1709321833273
-      name: screen_2024-03-01_19-37-12-880.png
-      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/qrjvmA0eWI0vA6rgDBwp-screen_2024-03-01_19-37-12-880.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FoFUkvwuEcHTueIIgbN8q-screen_2024-09-03_20-48-01-051.png?alt=media&token=c87e622d-f030-4ad1-a9d5-cc71c536fef3
+      lastModifiedTS: 1725396481480
+      name: screen_2024-09-03_20-48-01-051.png
+      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/oFUkvwuEcHTueIIgbN8q-screen_2024-09-03_20-48-01-051.png
       type: image/png
   inPool: true
   mapLists:
     - popular16p
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2Fphoto%2FcNtIAjFlj1JUM9l6RSuq-rockjunglemini.png?alt=media&token=5ca6b160-e9a3-4a07-9973-4dcb3764bb96
-      lastModifiedTS: 1709345228540
-      name: rockjunglemini.png
-      ref: maps/PekWgagUAJmWoOua3BKS/photo/cNtIAjFlj1JUM9l6RSuq-rockjunglemini.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2Fphoto%2F6PYgbtniAi8Q2MapnxG6-rockjunglemini2.png?alt=media&token=511e705c-2b28-4fa2-8c37-ec7a4cd9642c
+      lastModifiedTS: 1725383601749
+      name: rockjunglemini2.png
+      ref: maps/PekWgagUAJmWoOua3BKS/photo/6PYgbtniAi8Q2MapnxG6-rockjunglemini2.png
       type: image/png
   playerCount: 16
-  springName: The Rock Jungle 2.0
+  springName: The Rock Jungle 2.1
   startboxesSet:
     hH36OTRHDx2Dg2JCtqYs:
       maxPlayersPerStartbox: 8
@@ -7712,6 +8058,95 @@ WrkVFQS8BedaqPg5SeB7:
       type: image/jpeg
   playerCount: 16
   springName: Scylla and Charybdis 1.1
+  startPos:
+    positions:
+      P1:
+        x: 1535
+        y: 9097
+      P10:
+        x: 6239
+        y: 2343
+      P11:
+        x: 5096
+        y: 1032
+      P12:
+        x: 4649
+        y: 2261
+      P13:
+        x: 3045
+        y: 1006
+      P14:
+        x: 2589
+        y: 2251
+      P15:
+        x: 1280
+        y: 1150
+      P16:
+        x: 1261
+        y: 2277
+      P2:
+        x: 1965
+        y: 7891
+      P3:
+        x: 3130
+        y: 9178
+      P4:
+        x: 3579
+        y: 7966
+      P5:
+        x: 5132
+        y: 9235
+      P6:
+        x: 5606
+        y: 8010
+      P7:
+        x: 6952
+        y: 9098
+      P8:
+        x: 6951
+        y: 7960
+      P9:
+        x: 6675
+        y: 1135
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     kRIRB3IqW07796KrvKeU:
       maxPlayersPerStartbox: 8
@@ -7865,6 +8300,103 @@ X0N11knnIS4fWqkoFPBC:
       type: image/jpeg
   playerCount: 16
   springName: Twin Lakes Park Redux 1.21
+  startPos:
+    positions:
+      P1:
+        x: 2054
+        y: 393
+      P10:
+        x: 10313
+        y: 8702
+      P11:
+        x: 9777
+        y: 6856
+      P12:
+        x: 11900
+        y: 5844
+      P13:
+        x: 10563
+        y: 5113
+      P14:
+        x: 10908
+        y: 3656
+      P15:
+        x: 11267
+        y: 2053
+      P16:
+        x: 9921
+        y: 809
+      P17:
+        x: 3851
+        y: 3349
+      P18:
+        x: 8497
+        y: 6866
+      P2:
+        x: 2004
+        y: 1551
+      P3:
+        x: 2503
+        y: 3380
+      P4:
+        x: 429
+        y: 4393
+      P5:
+        x: 1740
+        y: 5131
+      P6:
+        x: 1379
+        y: 6570
+      P7:
+        x: 1009
+        y: 8149
+      P8:
+        x: 2354
+        y: 9420
+      P9:
+        x: 10250
+        y: 9836
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - baseCenter: P17
+                role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - baseCenter: P18
+                role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     RPV8P6MoA9CjwLJBT9bP:
       maxPlayersPerStartbox: 8
@@ -8427,27 +8959,44 @@ XyspXgig1fp54pmAcYIo:
 Y5e7sl891wO5G2ttwjmr:
   author: Moose, PtaQ
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FbackgroundImage%2F2uIy4BvdD6SUTcASGOCW-screen00028.png?alt=media&token=d3774190-9bcd-48b9-915c-c15c0eb9fe37
-      lastModifiedTS: 1700605640807
-      name: screen00028.png
-      ref: maps/Y5e7sl891wO5G2ttwjmr/backgroundImage/2uIy4BvdD6SUTcASGOCW-screen00028.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FbackgroundImage%2FLDextTR1ANYYqlaUSkJD-screen_2024-09-03_20-52-34-233.png?alt=media&token=a4cc7098-c98f-4a53-b2a4-e1390d2164e7
+      lastModifiedTS: 1725396754654
+      name: screen_2024-09-03_20-52-34-233.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/backgroundImage/LDextTR1ANYYqlaUSkJD-screen_2024-09-03_20-52-34-233.png
       type: image/png
   certified: true
   description: A lush river cuts through the bottom of this deep chasm. East vs West.
   displayName: Rustcrown Canyon
   gameType:
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FinGameShots%2FPgI85UhGHCG1UCV2zpz7-screen_2024-09-03_20-53-13-465.png?alt=media&token=cc8ff1cf-508c-4cbe-aad4-a4c32d4ac54b
+      lastModifiedTS: 1725396793906
+      name: screen_2024-09-03_20-53-13-465.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/inGameShots/PgI85UhGHCG1UCV2zpz7-screen_2024-09-03_20-53-13-465.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FinGameShots%2F1nE9HlEIIxJPIXxXvNvE-screen_2024-09-03_20-53-24-363.png?alt=media&token=42262e05-908d-48d8-93bb-5cc0a547f3c1
+      lastModifiedTS: 1725396804824
+      name: screen_2024-09-03_20-53-24-363.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/inGameShots/1nE9HlEIIxJPIXxXvNvE-screen_2024-09-03_20-53-24-363.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FinGameShots%2FkHuCxIQJ8FSxsjw35uS4-screen_2024-09-03_20-53-03-130.png?alt=media&token=6f6f0c17-c0b4-4666-8c52-d74f3a57bad4
+      lastModifiedTS: 1725396783526
+      name: screen_2024-09-03_20-53-03-130.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/inGameShots/kHuCxIQJ8FSxsjw35uS4-screen_2024-09-03_20-53-03-130.png
+      type: image/png
   inPool: true
   mapLists:
     - popular16p
+  perspectiveShot: []
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2Fphoto%2FLnlydXB0vspDfUp4T4Kg-screen00010.jpg?alt=media&token=690e7a88-07fe-4634-917d-81e2f24b894d
-      lastModifiedTS: 1686932923423
-      name: screen00010.jpg
-      ref: maps/Y5e7sl891wO5G2ttwjmr/photo/LnlydXB0vspDfUp4T4Kg-screen00010.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2Fphoto%2FFQWRrFiv5hLEuXdayRnD-rustcrownmini.png?alt=media&token=a1d201de-0066-42e0-b5ef-5c10e924465c
+      lastModifiedTS: 1725383485302
+      name: rustcrownmini.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/photo/FQWRrFiv5hLEuXdayRnD-rustcrownmini.png
+      type: image/png
   playerCount: 12
-  springName: Rustcrown Canyon 1.2
+  springName: Rustcrown Canyon 1.3
   startboxesSet:
     Wld9X78iaTL095TweT4A:
       maxPlayersPerStartbox: 6
@@ -8620,6 +9169,95 @@ Z7wmue7EsjaTNpsdBuyx:
       type: image/jpeg
   playerCount: 16
   springName: Pawn Retreat 1.2
+  startPos:
+    positions:
+      P1:
+        x: 467
+        y: 3013
+      P10:
+        x: 8289
+        y: 9336
+      P11:
+        x: 7128
+        y: 8200
+      P12:
+        x: 5092
+        y: 9261
+      P13:
+        x: 3153
+        y: 9959
+      P14:
+        x: 2636
+        y: 7624
+      P15:
+        x: 854
+        y: 9249
+      P16:
+        x: 476
+        y: 7187
+      P2:
+        x: 1973
+        y: 996
+      P3:
+        x: 3116
+        y: 2094
+      P4:
+        x: 5156
+        y: 1043
+      P5:
+        x: 7082
+        y: 344
+      P6:
+        x: 7636
+        y: 2654
+      P7:
+        x: 9383
+        y: 1017
+      P8:
+        x: 9792
+        y: 3036
+      P9:
+        x: 9828
+        y: 7288
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     9SQorBYBRNV7YaZP6qtW:
       maxPlayersPerStartbox: 8
@@ -8642,6 +9280,12 @@ Z7wmue7EsjaTNpsdBuyx:
     - desert
 Z8YOFQmH2Aic7MsPihzr:
   author: Pinchy
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FbackgroundImage%2FyicZ6V7luYkm7T2VGvpC-pinch_point_1.03_background.png?alt=media&token=4a3191f7-98d9-4a73-bc5c-9a6eb455bf77
+      lastModifiedTS: 1724523146468
+      name: pinch_point_1.03_background.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/backgroundImage/yicZ6V7luYkm7T2VGvpC-pinch_point_1.03_background.png
+      type: image/png
   certified: true
   description: An island pair set in a tropical biome featuring a large central
     crossing and supporting islands to create tactical opportunities for all
@@ -8649,15 +9293,33 @@ Z8YOFQmH2Aic7MsPihzr:
   displayName: Pinch Point
   gameType:
     - team
+    - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FinGameShots%2FSEBPNQb9mSUtKj5AiwZw-pinch_point_1.03_in_game_shot_1.png?alt=media&token=f621f9d1-d7e4-4bd0-8627-9b353b5c7618
+      lastModifiedTS: 1724523148755
+      name: pinch_point_1.03_in_game_shot_1.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/inGameShots/SEBPNQb9mSUtKj5AiwZw-pinch_point_1.03_in_game_shot_1.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FinGameShots%2FT20UZexggzrd3B2fsV9D-pinch_point_1.03_in_game_shot_2.png?alt=media&token=cf7479c2-66dd-4ce0-a94a-057d62e110a5
+      lastModifiedTS: 1724523150427
+      name: pinch_point_1.03_in_game_shot_2.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/inGameShots/T20UZexggzrd3B2fsV9D-pinch_point_1.03_in_game_shot_2.png
+      type: image/png
   inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FperspectiveShot%2FHz3t6U5J6DlgicFSmt2b-pinch_point_1.03_perspective.png?alt=media&token=d1419d56-7de6-4eb7-b2ad-4dcdcddbe823
+      lastModifiedTS: 1724523147127
+      name: pinch_point_1.03_perspective.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/perspectiveShot/Hz3t6U5J6DlgicFSmt2b-pinch_point_1.03_perspective.png
+      type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2Fphoto%2FWFTekDQFU1Bhbas1izIk-pinch_point.png?alt=media&token=1ad9c7c4-787c-4936-ae93-774efcf6d458
-      lastModifiedTS: 1708182197254
-      name: pinch_point.png
-      ref: maps/Z8YOFQmH2Aic7MsPihzr/photo/WFTekDQFU1Bhbas1izIk-pinch_point.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2Fphoto%2FPalVnR8tM3kfyYznMmzV-pinch_point_1.03_screenshot.png?alt=media&token=5e554890-1546-4940-abe8-a8758f5e12af
+      lastModifiedTS: 1724522505960
+      name: pinch_point_1.03_screenshot.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/photo/PalVnR8tM3kfyYznMmzV-pinch_point_1.03_screenshot.png
       type: image/png
   playerCount: 16
-  springName: Pinch Point 1.01
+  springName: Pinch Point 1.03
   startboxesSet:
     1LFGneSokrjxE8sTzln3:
       maxPlayersPerStartbox: 8
@@ -9040,6 +9702,95 @@ ZrnTf20mPzbrMjtHa9Wg:
       type: image/jpeg
   playerCount: 16
   springName: Riverrun_V1
+  startPos:
+    positions:
+      P1:
+        x: 2498
+        y: 990
+      P10:
+        x: 11710
+        y: 10065
+      P11:
+        x: 11504
+        y: 7800
+      P12:
+        x: 9123
+        y: 7384
+      P13:
+        x: 11429
+        y: 6159
+      P14:
+        x: 11203
+        y: 3491
+      P15:
+        x: 9074
+        y: 3664
+      P16:
+        x: 11673
+        y: 670
+      P2:
+        x: 571
+        y: 2236
+      P3:
+        x: 744
+        y: 4553
+      P4:
+        x: 3158
+        y: 4911
+      P5:
+        x: 711
+        y: 6229
+      P6:
+        x: 1141
+        y: 8698
+      P7:
+        x: 3222
+        y: 8641
+      P8:
+        x: 626
+        y: 11642
+      P9:
+        x: 9780
+        y: 11344
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     4QDYnTGkngUE3fklTJex:
       maxPlayersPerStartbox: 8
@@ -10095,6 +10846,95 @@ cIMaYX0u2fprp7Qk78wK:
       type: image/jpeg
   playerCount: 16
   springName: Plains and Passes v1.0
+  startPos:
+    positions:
+      P1:
+        x: 587
+        y: 802
+      P10:
+        x: 8228
+        y: 7440
+      P11:
+        x: 9820
+        y: 6384
+      P12:
+        x: 8554
+        y: 5941
+      P13:
+        x: 8564
+        y: 4459
+      P14:
+        x: 9853
+        y: 3868
+      P15:
+        x: 8264
+        y: 3015
+      P16:
+        x: 9552
+        y: 719
+      P2:
+        x: 2036
+        y: 2795
+      P3:
+        x: 395
+        y: 3851
+      P4:
+        x: 1697
+        y: 4335
+      P5:
+        x: 1696
+        y: 5787
+      P6:
+        x: 422
+        y: 6429
+      P7:
+        x: 1980
+        y: 7246
+      P8:
+        x: 683
+        y: 9562
+      P9:
+        x: 9705
+        y: 9498
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: tech
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     j3tkoOiTICsyJU0vIZIA:
       maxPlayersPerStartbox: 8
@@ -10193,6 +11033,111 @@ cQ5LLQmNqCPCnYFiTlcb:
       type: image/jpeg
   playerCount: 16
   springName: Koom Valley 3 3.1
+  startPos:
+    positions:
+      P1:
+        x: 3261
+        y: 619
+      P10:
+        x: 9172
+        y: 5896
+      P11:
+        x: 11966
+        y: 5549
+      P12:
+        x: 8949
+        y: 4383
+      P13:
+        x: 8945
+        y: 3797
+      P14:
+        x: 11988
+        y: 2624
+      P15:
+        x: 9286
+        y: 2307
+      P16:
+        x: 9009
+        y: 620
+      P17:
+        x: 4352
+        y: 3734
+      P18:
+        x: 4355
+        y: 4485
+      P19:
+        x: 7957
+        y: 4549
+      P2:
+        x: 3093
+        y: 2265
+      P20:
+        x: 8003
+        y: 3795
+      P3:
+        x: 363
+        y: 2753
+      P4:
+        x: 3392
+        y: 3799
+      P5:
+        x: 3392
+        y: 4422
+      P6:
+        x: 348
+        y: 5475
+      P7:
+        x: 3096
+        y: 5918
+      P8:
+        x: 3361
+        y: 7445
+      P9:
+        x: 9025
+        y: 7599
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - baseCenter: P17
+                role: front
+                spawnPoint: P4
+              - baseCenter: P18
+                role: front
+                spawnPoint: P5
+              - role: tech
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - baseCenter: P19
+                role: front
+                spawnPoint: P12
+              - baseCenter: P20
+                role: front
+                spawnPoint: P13
+              - role: tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     G9Mcs1KtaHcbgiL7UiHr:
       maxPlayersPerStartbox: 8
@@ -10949,10 +11894,10 @@ fzRTg60xfSVnG44Zw42D:
 g7NeIaS3XxFSn2KcrCiL:
   author: Moose
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FbackgroundImage%2FR2IrPrP31tV8HT2wuFSk-screen00012.png?alt=media&token=d0efe917-e512-421f-a88b-c4b661c1b1b1
-      lastModifiedTS: 1700524310933
-      name: screen00012.png
-      ref: maps/g7NeIaS3XxFSn2KcrCiL/backgroundImage/R2IrPrP31tV8HT2wuFSk-screen00012.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FbackgroundImage%2FyVkgWRh8b9rNVPd1yv6t-screen_2024-09-03_20-57-16-935.png?alt=media&token=1ca1583b-f762-48d0-98df-44ba864d8179
+      lastModifiedTS: 1725397037461
+      name: screen_2024-09-03_20-57-16-935.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/backgroundImage/yVkgWRh8b9rNVPd1yv6t-screen_2024-09-03_20-57-16-935.png
       type: image/png
   certified: true
   description: Flat 1vs1 map with many small pillars.
@@ -10961,15 +11906,31 @@ g7NeIaS3XxFSn2KcrCiL:
     - 1v1
     - ffa
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FinGameShots%2FF5AngQ4EQ1glmpMAIuvk-screen_2024-09-03_20-57-36-885.png?alt=media&token=6b105974-053f-4784-9d9c-10b503a48339
+      lastModifiedTS: 1725397057384
+      name: screen_2024-09-03_20-57-36-885.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/inGameShots/F5AngQ4EQ1glmpMAIuvk-screen_2024-09-03_20-57-36-885.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FinGameShots%2FGcbsC6NMRHxsiVVEpFoz-screen_2024-09-03_20-58-53-253.png?alt=media&token=00befed3-2597-4e7b-909a-bbb80bd4a775
+      lastModifiedTS: 1725397133830
+      name: screen_2024-09-03_20-58-53-253.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/inGameShots/GcbsC6NMRHxsiVVEpFoz-screen_2024-09-03_20-58-53-253.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FinGameShots%2FR3fwUlIbceVdw23SpLdA-screen_2024-09-03_20-58-28-302.png?alt=media&token=f41bff32-4ed7-45e1-8f2b-b3cb0043d812
+      lastModifiedTS: 1725397108814
+      name: screen_2024-09-03_20-58-28-302.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/inGameShots/R3fwUlIbceVdw23SpLdA-screen_2024-09-03_20-58-28-302.png
+      type: image/png
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
-      lastModifiedTS: 1683982307731
-      name: Crystallized_Plains_1.01.jpg
-      ref: maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2Fphoto%2Fn2pJT5svY3Z0PnYbv6Cg-crystalmini.png?alt=media&token=579da67e-83ce-4776-94b8-039330819f93
+      lastModifiedTS: 1725383324106
+      name: crystalmini.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/photo/n2pJT5svY3Z0PnYbv6Cg-crystalmini.png
+      type: image/png
   playerCount: 4
-  springName: Crystallized Plains 1.02
+  springName: Crystallized Plains 1.1
   startboxesSet:
     2MhyD5TFVBuEWuGAHvJv:
       maxPlayersPerStartbox: 1
@@ -11204,6 +12165,111 @@ gf2s52iInoEKNyK1vA19:
       type: image/jpeg
   playerCount: 16
   springName: Sunderance V1.3
+  startPos:
+    positions:
+      P1:
+        x: 253
+        y: 6871
+      P10:
+        x: 6701
+        y: 774
+      P11:
+        x: 5691
+        y: 396
+      P12:
+        x: 5427
+        y: 1538
+      P13:
+        x: 3015
+        y: 528
+      P14:
+        x: 1800
+        y: 669
+      P15:
+        x: 2073
+        y: 1591
+      P16:
+        x: 452
+        y: 1554
+      P17:
+        x: 2792
+        y: 6136
+      P18:
+        x: 6095
+        y: 5894
+      P19:
+        x: 5409
+        y: 2086
+      P2:
+        x: 1478
+        y: 7431
+      P20:
+        x: 2090
+        y: 2304
+      P3:
+        x: 2492
+        y: 7793
+      P4:
+        x: 2733
+        y: 6616
+      P5:
+        x: 5191
+        y: 7679
+      P6:
+        x: 6401
+        y: 7500
+      P7:
+        x: 6167
+        y: 6557
+      P8:
+        x: 7732
+        y: 6640
+      P9:
+        x: 7911
+        y: 1329
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front/tech
+                spawnPoint: P3
+              - baseCenter: P17
+                role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - baseCenter: P18
+                role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front/tech
+                spawnPoint: P11
+              - baseCenter: P19
+                role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - baseCenter: P20
+                role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     4Z4rUlQfxrb5fbQd6eTz:
       maxPlayersPerStartbox: 4
@@ -11561,6 +12627,95 @@ igcp0iDB12WAKPdtBDna:
       type: image/jpeg
   playerCount: 16
   springName: White Fire Remake 1.3
+  startPos:
+    positions:
+      P1:
+        x: 590
+        y: 6894
+      P10:
+        x: 5976
+        y: 1674
+      P11:
+        x: 5976
+        y: 509
+      P12:
+        x: 4982
+        y: 2264
+      P13:
+        x: 4300
+        y: 344
+      P14:
+        x: 3101
+        y: 1042
+      P15:
+        x: 1913
+        y: 792
+      P16:
+        x: 465
+        y: 740
+      P2:
+        x: 2226
+        y: 6525
+      P3:
+        x: 2196
+        y: 7653
+      P4:
+        x: 3184
+        y: 5906
+      P5:
+        x: 3923
+        y: 7852
+      P6:
+        x: 5114
+        y: 7131
+      P7:
+        x: 6265
+        y: 7384
+      P8:
+        x: 7680
+        y: 7440
+      P9:
+        x: 7648
+        y: 1310
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     L0la5r0IeQWzETmxsIKK:
       maxPlayersPerStartbox: 8
@@ -12429,6 +13584,95 @@ mAD4ToJrMg6xGHEM18qN:
   playerCount: 16
   special: Acid
   springName: Sector 318C v1.0
+  startPos:
+    positions:
+      P1:
+        x: 467
+        y: 467
+      P10:
+        x: 8825
+        y: 6100
+      P11:
+        x: 8499
+        y: 4642
+      P12:
+        x: 9736
+        y: 3424
+      P13:
+        x: 8049
+        y: 3405
+      P14:
+        x: 8010
+        y: 1659
+      P15:
+        x: 9717
+        y: 978
+      P16:
+        x: 8404
+        y: 509
+      P2:
+        x: 1426
+        y: 2107
+      P3:
+        x: 1762
+        y: 3543
+      P4:
+        x: 489
+        y: 4809
+      P5:
+        x: 2263
+        y: 4918
+      P6:
+        x: 2237
+        y: 6502
+      P7:
+        x: 548
+        y: 6864
+      P8:
+        x: 1631
+        y: 7869
+      P9:
+        x: 9873
+        y: 7786
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front/tech
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front/tech
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     ceEohe8ZrhsyVk1tZm1D:
       maxPlayersPerStartbox: 8
@@ -12961,50 +14205,50 @@ oX7eHI8mlpVvJUYs4v4Y:
         x: 668
         y: 755
       P10:
-        x: 679
-        y: 8195
+        x: 3452
+        y: 9689
       P11:
         x: 1943
         y: 9622
       P12:
-        x: 1845
-        y: 8255
+        x: 408
+        y: 9640
       P13:
-        x: 3464
-        y: 9700
+        x: 5166
+        y: 8246
       P14:
-        x: 3196
+        x: 3212
         y: 8249
       P15:
-        x: 5479
-        y: 9475
+        x: 1859
+        y: 8256
       P16:
-        x: 5172
-        y: 8264
+        x: 697
+        y: 8224
       P2:
-        x: 1157
-        y: 1982
+        x: 2801
+        y: 775
       P3:
-        x: 2826
-        y: 763
+        x: 4211
+        y: 609
       P4:
-        x: 3058
-        y: 1984
+        x: 5762
+        y: 600
       P5:
-        x: 4204
-        y: 607
+        x: 1159
+        y: 1943
       P6:
-        x: 4260
-        y: 2000
+        x: 3061
+        y: 1967
       P7:
-        x: 5764
-        y: 595
+        x: 4298
+        y: 1996
       P8:
-        x: 5480
-        y: 2014
+        x: 5472
+        y: 2030
       P9:
-        x: 409
-        y: 9635
+        x: 5475
+        y: 9444
     team:
       - playersPerTeam: 8
         sides:
@@ -13112,6 +14356,95 @@ pFTrUA4OGRNoSNpSAzx2:
       type: image/png
   playerCount: 16
   springName: Moonshine Run v1.0.1
+  startPos:
+    positions:
+      P1:
+        x: 1662
+        y: 855
+      P10:
+        x: 9825
+        y: 6373
+      P11:
+        x: 9817
+        y: 5514
+      P12:
+        x: 11165
+        y: 4591
+      P13:
+        x: 9820
+        y: 3852
+      P14:
+        x: 9964
+        y: 2982
+      P15:
+        x: 9867
+        y: 1984
+      P16:
+        x: 9926
+        y: 876
+      P2:
+        x: 2459
+        y: 1818
+      P3:
+        x: 2489
+        y: 2670
+      P4:
+        x: 1109
+        y: 3590
+      P5:
+        x: 2498
+        y: 4329
+      P6:
+        x: 2323
+        y: 5200
+      P7:
+        x: 2419
+        y: 6285
+      P8:
+        x: 2391
+        y: 7308
+      P9:
+        x: 10604
+        y: 7300
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     VmOHp52zUfny6T0uypce:
       maxPlayersPerStartbox: 8
@@ -13302,6 +14635,95 @@ qrpwI83FonOR43KTBxZE:
       type: image/png
   playerCount: 16
   springName: Salmiakki 1.2
+  startPos:
+    positions:
+      P1:
+        x: 843
+        y: 226
+      P10:
+        x: 8912
+        y: 5873
+      P11:
+        x: 8573
+        y: 5037
+      P12:
+        x: 7907
+        y: 4201
+      P13:
+        x: 9651
+        y: 2913
+      P14:
+        x: 8382
+        y: 2889
+      P15:
+        x: 9077
+        y: 1649
+      P16:
+        x: 7989
+        y: 762
+      P2:
+        x: 1241
+        y: 2300
+      P3:
+        x: 1596
+        y: 3146
+      P4:
+        x: 2223
+        y: 3999
+      P5:
+        x: 488
+        y: 5227
+      P6:
+        x: 1745
+        y: 5268
+      P7:
+        x: 1061
+        y: 6546
+      P8:
+        x: 2153
+        y: 7457
+      P9:
+        x: 9319
+        y: 7986
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: sea
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Cnq5FP96uB07wGWJ92oU:
       maxPlayersPerStartbox: 8
@@ -13967,6 +15389,95 @@ taMTVVZKAKbYywe7tyRb:
       type: image/png
   playerCount: 16
   springName: The Tartar Steppe v1.1
+  startPos:
+    positions:
+      P1:
+        x: 2151
+        y: 1051
+      P10:
+        x: 10105
+        y: 9486
+      P11:
+        x: 9949
+        y: 8150
+      P12:
+        x: 9889
+        y: 6680
+      P13:
+        x: 9854
+        y: 5597
+      P14:
+        x: 9979
+        y: 4173
+      P15:
+        x: 10101
+        y: 2790
+      P16:
+        x: 10151
+        y: 1118
+      P2:
+        x: 2200
+        y: 2770
+      P3:
+        x: 2314
+        y: 4142
+      P4:
+        x: 2421
+        y: 5615
+      P5:
+        x: 2427
+        y: 6654
+      P6:
+        x: 2333
+        y: 8233
+      P7:
+        x: 2182
+        y: 9511
+      P8:
+        x: 2150
+        y: 11223
+      P9:
+        x: 10136
+        y: 11255
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     tzBDplnMfTRPH0H4BYcH:
       maxPlayersPerStartbox: 8
@@ -14426,6 +15937,95 @@ vFNwoJJ3cCMzSaAAQPvR:
       type: image/jpeg
   playerCount: 16
   springName: Starwatcher 1.0
+  startPos:
+    positions:
+      P1:
+        x: 2552
+        y: 597
+      P10:
+        x: 11712
+        y: 7089
+      P11:
+        x: 11453
+        y: 5487
+      P12:
+        x: 10066
+        y: 4704
+      P13:
+        x: 11669
+        y: 3403
+      P14:
+        x: 10181
+        y: 3173
+      P15:
+        x: 11173
+        y: 2139
+      P16:
+        x: 10181
+        y: 1478
+      P2:
+        x: 578
+        y: 1101
+      P3:
+        x: 811
+        y: 2694
+      P4:
+        x: 2187
+        y: 3454
+      P5:
+        x: 605
+        y: 4759
+      P6:
+        x: 2106
+        y: 4982
+      P7:
+        x: 1133
+        y: 6040
+      P8:
+        x: 2081
+        y: 6686
+      P9:
+        x: 9733
+        y: 7582
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front/tech
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front/tech
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     QHtPYvsorgmM4mAWPqP1:
       maxPlayersPerStartbox: 8
@@ -15451,6 +17051,95 @@ zvTEXnewG2G8LaMjFq4o:
       type: image/jpeg
   playerCount: 16
   springName: Nuclear Winter Bar 1.4
+  startPos:
+    positions:
+      P1:
+        x: 2046
+        y: 295
+      P10:
+        x: 9622
+        y: 564
+      P11:
+        x: 9861
+        y: 2256
+      P12:
+        x: 7804
+        y: 2292
+      P13:
+        x: 7789
+        y: 3391
+      P14:
+        x: 9919
+        y: 3586
+      P15:
+        x: 7991
+        y: 4255
+      P16:
+        x: 9795
+        y: 4795
+      P2:
+        x: 382
+        y: 553
+      P3:
+        x: 438
+        y: 2376
+      P4:
+        x: 2569
+        y: 2327
+      P5:
+        x: 2570
+        y: 3199
+      P6:
+        x: 339
+        y: 3609
+      P7:
+        x: 2163
+        y: 4169
+      P8:
+        x: 452
+        y: 4786
+      P9:
+        x: 8153
+        y: 279
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front/tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front/tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     eZzR5USURUBzWdPBD5LJ:
       maxPlayersPerStartbox: 8
