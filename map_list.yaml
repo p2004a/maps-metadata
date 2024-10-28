@@ -516,18 +516,23 @@
       ref: maps/20rGnfO4wwkmV5v2fXVZ/backgroundImage/fTZVksHsmZrgT6Y1HcIP-BAR_FolsomDam_BG.jpg
       type: image/jpeg
   certified: true
-  description: |-
+  description: >-
     Folsomdam Remake | BAR Certified
+
 
     Remake of the very popular map Folsomdam V4 Deluxe.
 
+
     Full remake with high quality textures and 1:1 diffuse/normalmap.
+
 
     Heightmap only slightly updated with improved erosion.
 
+
     Incl. detailed DNTS splatmaps and features, except stones.
 
-    Including the original 14 start locations.
+
+    Including the original 14 start locations. V1.17 fixed trees/geos not loading.
   displayName: Folsom Dam
   gameType:
     - team
@@ -584,7 +589,7 @@
       type: image/jpeg
   playerCount: 16
   special: Dam
-  springName: FolsomDamR 1.16
+  springName: FolsomDamR 1.17
   startboxesSet:
     7sHSzT3WEkIZZ0Uw2sfL:
       maxPlayersPerStartbox: 6
@@ -1052,6 +1057,7 @@
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
       lastModifiedTS: 1683982253960
@@ -2128,7 +2134,7 @@
       - playersPerTeam: 8
         sides:
           - starts:
-              - role: air/front
+              - role: front
                 spawnPoint: P1
               - role: front
                 spawnPoint: P2
@@ -2145,7 +2151,7 @@
               - role: front
                 spawnPoint: P8
           - starts:
-              - role: air/front
+              - role: front
                 spawnPoint: P9
               - role: front
                 spawnPoint: P10
@@ -2599,6 +2605,56 @@
     - desert
     - hills
     - chokepoints
+9laQQGzxGwnsLE3CgFQ5:
+  author: AidanNaut
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FbackgroundImage%2FKD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png?alt=media&token=ee023d2d-086a-4abd-a3dc-e38370d6c5aa
+      lastModifiedTS: 1727736273275
+      name: screen_2024-09-30_22-44-32-511.png
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/backgroundImage/KD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png
+      type: image/png
+  certified: true
+  description: A macro style map. 1v1 recommended. 2v2s to 5v5s are playable.
+  displayName: Eclipsed
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FdZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png?alt=media&token=4dfb8af3-6706-465c-8cfe-9013244a2c6a
+      lastModifiedTS: 1727736350609
+      name: screen_2024-09-30_22-45-49-944.png
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/dZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2FbX8701QR60LPIw1dcjQy-Topdown.png?alt=media&token=eac9dd3f-3b38-43db-b801-e04343b57ccb
+      lastModifiedTS: 1727888375929
+      name: Topdown.png
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/bX8701QR60LPIw1dcjQy-Topdown.png
+      type: image/png
+  playerCount: 10
+  springName: Eclipsed 0.8.1
+  startboxesSet:
+    bTWaYSKhVS7DxBGNtwBd:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 0
+              y: 120
+            - x: 58
+              y: 200
+        - poly:
+            - x: 120
+              y: 0
+            - x: 200
+              y: 58
+  teamCount: 2
+  terrain:
+    - alien
+    - hills
+    - grassy
+    - desert
+  title: Large Macro Bases
 9pCv5iZ1gaLWioi1A8KJ:
   author: IceXuick
   backgroundImage:
@@ -2741,6 +2797,7 @@ ABBUHinh94O7299Php6p:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FABBUHinh94O7299Php6p%2Fphoto%2Fg3E7FssKIHMZ8jRxVOtT-DSDR57.jpg?alt=media&token=bcb5d08d-a1e7-4fc9-b1e1-0aaecb2a7ba3
       lastModifiedTS: 1692816177939
@@ -3108,6 +3165,7 @@ ASieUn5uvk5eyZz6KhUt:
   playerCount: 16
   special: Asymmetrical
   springName: Odderon Strandflats v1.1
+  startPosActive: false
   startboxesSet:
     Q8Jv8t5xYvC9g3CPlZgu:
       maxPlayersPerStartbox: 1
@@ -3862,13 +3920,13 @@ DUxqUMUDGiYr1y5jx3sq:
       - playersPerTeam: 8
         sides:
           - starts:
-              - role: sea
+              - role: air
                 spawnPoint: P1
               - role: front
                 spawnPoint: P2
-              - role: front
+              - role: sea
                 spawnPoint: P3
-              - role: air
+              - role: front
                 spawnPoint: P4
               - role: tech
                 spawnPoint: P5
@@ -3879,13 +3937,13 @@ DUxqUMUDGiYr1y5jx3sq:
               - role: sea
                 spawnPoint: P8
           - starts:
-              - role: sea
+              - role: air
                 spawnPoint: P9
               - role: front
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
-              - role: air
+              - role: sea
                 spawnPoint: P12
               - role: tech
                 spawnPoint: P13
@@ -7683,6 +7741,7 @@ UhGP9ish5WdFio1VfrU6:
       type: image/jpeg
   playerCount: 10
   springName: Boulder_Beach_V1
+  startPosActive: false
   startboxesSet:
     eLXRSu3pdyiHTaeaLHXi:
       maxPlayersPerStartbox: 5
@@ -7704,6 +7763,76 @@ UhGP9ish5WdFio1VfrU6:
     - tropical
     - shallows
   title: Combine and Conquer
+UpcuKVvMurtZNynDnqiW:
+  author: Moose, Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2FbackgroundImage%2FmvWWWj0gFmyYdSVkCknf-screen_2024-10-22_02-03-40-823.png?alt=media&token=ee9e5e21-9d7b-46f8-a1c7-cc18567e2e97
+      lastModifiedTS: 1729562621363
+      name: screen_2024-10-22_02-03-40-823.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/backgroundImage/mvWWWj0gFmyYdSVkCknf-screen_2024-10-22_02-03-40-823.png
+      type: image/png
+  certified: true
+  description: A volcanic island of black sand and sparse vegetation. 5-10-15 player FFA.
+  displayName: Claymore
+  gameType:
+    - ffa
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2FinGameShots%2FLC4DC1ddg0A7LT1nrYSS-screen_2024-10-22_02-03-22-973.png?alt=media&token=73261846-bf58-4a2e-b028-92e1aa6148a3
+      lastModifiedTS: 1729562603412
+      name: screen_2024-10-22_02-03-22-973.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/inGameShots/LC4DC1ddg0A7LT1nrYSS-screen_2024-10-22_02-03-22-973.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2FinGameShots%2FTlldwBQtXTrhOcFu2dI4-screen_2024-10-22_02-04-32-507.png?alt=media&token=892299cd-2420-4577-a138-dd4d28b1bc89
+      lastModifiedTS: 1729562673002
+      name: screen_2024-10-22_02-04-32-507.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/inGameShots/TlldwBQtXTrhOcFu2dI4-screen_2024-10-22_02-04-32-507.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2Fphoto%2FyHbfUhbzVcGkl0eH5fSv-claymoremini.png?alt=media&token=afaa20ff-52f2-4a29-bb2b-220c63ff3ade
+      lastModifiedTS: 1729566879398
+      name: claymoremini.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/photo/yHbfUhbzVcGkl0eH5fSv-claymoremini.png
+      type: image/png
+  playerCount: 15
+  special: Lava
+  springName: Claymore 3
+  startboxesSet:
+    NV6sFceVjeNYwIEa6qFF:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 15
+              y: 30
+            - x: 70
+              y: 85
+        - poly:
+            - x: 110
+              y: 135
+            - x: 165
+              y: 190
+        - poly:
+            - x: 91
+              y: 13
+            - x: 146
+              y: 68
+        - poly:
+            - x: 20
+              y: 125
+            - x: 75
+              y: 180
+        - poly:
+            - x: 140
+              y: 70
+            - x: 195
+              y: 125
+  teamCount: 5
+  terrain:
+    - lava
+    - island
+    - hills
+    - grassy
+  title: Front Towards Enemy!
 UywijIj1uPuFeoV231kL:
   author: IceXuick
   backgroundImage:
@@ -8904,7 +9033,7 @@ XyspXgig1fp54pmAcYIo:
       name: hypermini.png
       ref: maps/XyspXgig1fp54pmAcYIo/photo/Cv4mXTcrgacjR88fWOGH-hypermini.png
       type: image/png
-  playerCount: 24
+  playerCount: 16
   special: Lava
   springName: Hyperion Shale 1.0
   startboxesSet:
@@ -8937,7 +9066,7 @@ XyspXgig1fp54pmAcYIo:
             - x: 51
               y: 112
     JpU5m6J80wOVMmo53lvb:
-      maxPlayersPerStartbox: 12
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 33
@@ -9879,7 +10008,7 @@ ZvEmwr9QVP760qJOdBxh:
         2024-05-23 02-32-30.png
       type: image/png
   playerCount: 4
-  springName: Aurelia v4
+  springName: Aurelia v4.1
   startboxesSet:
     To8o9AXTzbcEN0U9d9qX:
       maxPlayersPerStartbox: 2
@@ -12017,6 +12146,7 @@ gEgiWXCvonENJseDsfjj:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FperspectiveShot%2FQE63Qa9Hu5LC5KPCEXPc-bismuth3d.png?alt=media&token=a3d5ee77-65f2-4e68-b48e-31f7c7a19d50
       lastModifiedTS: 1701602945306
@@ -13095,6 +13225,7 @@ kesPeWO0ScnmWF2An8qA:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkesPeWO0ScnmWF2An8qA%2FperspectiveShot%2Fc59TV3OUb3z3GJ0gL68s-flats_and_forests_3D.png?alt=media&token=68bab0b5-2cee-4636-b2a6-e89c9e80be2d
       lastModifiedTS: 1699878971840
@@ -15374,6 +15505,7 @@ taMTVVZKAKbYywe7tyRb:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FperspectiveShot%2F5QTQknQYcRdoymt8d42T-tartar%203d.png?alt=media&token=616a8671-ba2b-4abe-972a-cdca5c2a4571
       lastModifiedTS: 1715976377879
