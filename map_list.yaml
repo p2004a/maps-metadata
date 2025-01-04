@@ -2573,6 +2573,7 @@
   mapLists:
     - testList
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
@@ -2611,10 +2612,10 @@
 9laQQGzxGwnsLE3CgFQ5:
   author: AidanNaut
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FbackgroundImage%2FKD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png?alt=media&token=ee023d2d-086a-4abd-a3dc-e38370d6c5aa
-      lastModifiedTS: 1727736273275
-      name: screen_2024-09-30_22-44-32-511.png
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/backgroundImage/KD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FbackgroundImage%2FfSDS8TjAChCT7M8Al0TQ-EclipsedDetail3.PNG?alt=media&token=e41bfb1b-21c4-4d16-85fe-c16d5f0d29a6
+      lastModifiedTS: 1734393515699
+      name: EclipsedDetail3.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/backgroundImage/fSDS8TjAChCT7M8Al0TQ-EclipsedDetail3.PNG
       type: image/png
   certified: true
   description: A macro style map. 1v1 recommended. 2v2s to 5v5s are playable.
@@ -2623,21 +2624,38 @@
     - 1v1
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FdZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png?alt=media&token=4dfb8af3-6706-465c-8cfe-9013244a2c6a
-      lastModifiedTS: 1727736350609
-      name: screen_2024-09-30_22-45-49-944.png
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/dZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FiiH5V1QOPBJHMy8vmj0o-EclipsedDetail4.PNG?alt=media&token=6dcebaf8-4618-46bf-bef8-d969ccd3a1f7
+      lastModifiedTS: 1734393390923
+      name: EclipsedDetail4.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/iiH5V1QOPBJHMy8vmj0o-EclipsedDetail4.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FApJfCnpJbE03zYGvc9ih-EclipsedDetail5.PNG?alt=media&token=6daa9ff9-18bc-4e27-a917-a1f0c6bdc421
+      lastModifiedTS: 1734393599944
+      name: EclipsedDetail5.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/ApJfCnpJbE03zYGvc9ih-EclipsedDetail5.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FILsXS3j4qWb1ap1GUTLo-EclipsedDetail6.PNG?alt=media&token=a4be9ada-bdc3-4dab-9412-20ea20eddbc2
+      lastModifiedTS: 1734396105458
+      name: EclipsedDetail6.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/ILsXS3j4qWb1ap1GUTLo-EclipsedDetail6.PNG
       type: image/png
   inPool: true
   minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FperspectiveShot%2FsVgGRUoXktWQ1fQwM0cu-EclipsedPerspective3.PNG?alt=media&token=a55a01e7-138a-4d9f-90d2-192c92327cfb
+      lastModifiedTS: 1734395848684
+      name: EclipsedPerspective3.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/perspectiveShot/sVgGRUoXktWQ1fQwM0cu-EclipsedPerspective3.PNG
+      type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2FbX8701QR60LPIw1dcjQy-Topdown.png?alt=media&token=eac9dd3f-3b38-43db-b801-e04343b57ccb
-      lastModifiedTS: 1727888375929
-      name: Topdown.png
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/bX8701QR60LPIw1dcjQy-Topdown.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2F8IKv91OWQc0wAT7Nxnsv-EclipsedOverheadPhoto.PNG?alt=media&token=d22672e6-db18-4e9e-835d-3b9c3579bdf7
+      lastModifiedTS: 1734542101788
+      name: EclipsedOverheadPhoto.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/8IKv91OWQc0wAT7Nxnsv-EclipsedOverheadPhoto.PNG
       type: image/png
   playerCount: 10
-  springName: Eclipsed 0.8.1
+  springName: Eclipsed 0.9.7
+  startPosActive: false
   startboxesSet:
     bTWaYSKhVS7DxBGNtwBd:
       maxPlayersPerStartbox: 5
@@ -2923,78 +2941,53 @@ ABBUHinh94O7299Php6p:
 ACgCe99NC8yZFecMwRCm:
   author: Nikuksis
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FbackgroundImage%2FdVZ6bXvDtcl3xqO98m74-supreme_strait_SS8.jpg?alt=media&token=338e4878-ab6d-490c-8b36-67b2c6bfebd4
-      lastModifiedTS: 1682159983146
-      name: supreme_strait_SS8.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/backgroundImage/dVZ6bXvDtcl3xqO98m74-supreme_strait_SS8.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FbackgroundImage%2FFQXggxNPsT3Z1TCwGJas-screen_2024-12-03_18-10-45-806.png?alt=media&token=c65c7c77-6c2d-48f2-99ac-48e3902db675
+      lastModifiedTS: 1733249447165
+      name: screen_2024-12-03_18-10-45-806.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/backgroundImage/FQXggxNPsT3Z1TCwGJas-screen_2024-12-03_18-10-45-806.png
+      type: image/png
   certified: true
-  description: 24x24 BAR remake of a famous map.
+  description: Merry Christmas and Happy New 2025!
   displayName: Supreme Isthmus
   gameType:
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FMtHdQWWKTilupWkDogqd-supreme_strait_SS8.jpg?alt=media&token=477b8d14-fd95-429e-b873-32828ea88300
-      lastModifiedTS: 1682159983146
-      name: supreme_strait_SS8.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/MtHdQWWKTilupWkDogqd-supreme_strait_SS8.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2Fo6b00YmJe1enR0szifJJ-supreme_strait_SS5.jpg?alt=media&token=263d385c-cf0f-4c90-9e88-5183d74be28f
-      lastModifiedTS: 1682159983110
-      name: supreme_strait_SS5.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/o6b00YmJe1enR0szifJJ-supreme_strait_SS5.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FK9s8gz55tk5iNx2sZvVz-supreme_strait_SS2.jpg?alt=media&token=0b6941c8-c443-4042-89a0-b7a46458943a
-      lastModifiedTS: 1682159982960
-      name: supreme_strait_SS2.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/K9s8gz55tk5iNx2sZvVz-supreme_strait_SS2.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FciOhZcutXZY21gZQWoHa-supreme_strait_SS7.jpg?alt=media&token=0bf94aa0-dc36-4d55-8287-f8096524ef27
-      lastModifiedTS: 1682159983160
-      name: supreme_strait_SS7.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/ciOhZcutXZY21gZQWoHa-supreme_strait_SS7.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FyY4BWpLF71wgnXzyqxsb-supreme_strait_overview.jpg?alt=media&token=ab7f2506-2770-4d62-9263-6e560db4a807
-      lastModifiedTS: 1682159982924
-      name: supreme_strait_overview.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/yY4BWpLF71wgnXzyqxsb-supreme_strait_overview.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FGPOya6srjQ94pTl8eyA4-supreme_strait_SS6.jpg?alt=media&token=b98212f4-9d65-4d2b-ad91-eb34fdef78e6
-      lastModifiedTS: 1682159983128
-      name: supreme_strait_SS6.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/GPOya6srjQ94pTl8eyA4-supreme_strait_SS6.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FbM6y6p4RjtuckvL2FBNV-supreme_strait_SS1.jpg?alt=media&token=f9f2531f-c239-46a8-8ffb-6322639c0930
-      lastModifiedTS: 1682159982955
-      name: supreme_strait_SS1.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/bM6y6p4RjtuckvL2FBNV-supreme_strait_SS1.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FSBE0zzT87Xfi53pYNOs1-supreme_strait_SS3.jpg?alt=media&token=6b8b914a-eda2-440c-88eb-49b4dbdac803
-      lastModifiedTS: 1682159982999
-      name: supreme_strait_SS3.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/SBE0zzT87Xfi53pYNOs1-supreme_strait_SS3.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FEJUGAKqeqBRkW6yrj9eO-supreme_strait_SS4.jpg?alt=media&token=7582b6ea-8c03-427e-8fd9-59f7f0f3ea1d
-      lastModifiedTS: 1682159983091
-      name: supreme_strait_SS4.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/EJUGAKqeqBRkW6yrj9eO-supreme_strait_SS4.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FohIDUUcV9kaVF06QnLxY-screen_2024-12-03_18-11-05-907.png?alt=media&token=96ad1481-be14-453d-8129-9f74ab448f51
+      lastModifiedTS: 1733249466988
+      name: screen_2024-12-03_18-11-05-907.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/ohIDUUcV9kaVF06QnLxY-screen_2024-12-03_18-11-05-907.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FrNMqMJXxzoWiM74L0dbg-screen_2024-12-03_18-11-18-519.png?alt=media&token=e9eca2f0-7bdb-4938-b29d-8f7357481885
+      lastModifiedTS: 1733249479549
+      name: screen_2024-12-03_18-11-18-519.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/rNMqMJXxzoWiM74L0dbg-screen_2024-12-03_18-11-18-519.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FaJNP56f90tuDaaWlrni5-screen_2024-12-03_18-10-54-996.png?alt=media&token=95a56114-7e87-464b-a716-288c7b445775
+      lastModifiedTS: 1733249455949
+      name: screen_2024-12-03_18-10-54-996.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/aJNP56f90tuDaaWlrni5-screen_2024-12-03_18-10-54-996.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FACdlJ4OI97rm6P7J8Gyr-screen_2024-12-03_18-10-40-050.png?alt=media&token=1b35f0a3-923f-4d48-828f-c42fadcaee64
+      lastModifiedTS: 1733249441384
+      name: screen_2024-12-03_18-10-40-050.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/ACdlJ4OI97rm6P7J8Gyr-screen_2024-12-03_18-10-40-050.png
+      type: image/png
   inPool: true
   minPlayerCount: 14
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FEyPGMedoGgS1Ix8z1XtM-supreme_strait_3D.png?alt=media&token=5c5e0e30-0076-4875-8ac6-ce9aaaba6bc0
-      lastModifiedTS: 1681499904035
-      name: supreme_strait_3D.png
-      ref: maps/ACgCe99NC8yZFecMwRCm/perspectiveShot/EyPGMedoGgS1Ix8z1XtM-supreme_strait_3D.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FYJzkdsjFThvnIYTz3ifL-winter_supreme_perspective.png?alt=media&token=054e2159-4d31-490c-b14f-11a9af6d6ec9
+      lastModifiedTS: 1733252756556
+      name: winter_supreme_perspective.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/perspectiveShot/YJzkdsjFThvnIYTz3ifL-winter_supreme_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FaHSMbP1xj0drwsRoChhS-supreme1.8.png?alt=media&token=dcbb052d-0d4c-47a1-8646-009d056a3c18
-      lastModifiedTS: 1720560055425
-      name: supreme1.8.png
-      ref: maps/ACgCe99NC8yZFecMwRCm/photo/aHSMbP1xj0drwsRoChhS-supreme1.8.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2Fu1YRHrD4wmMZFZRUloOn-winter_supreme.png?alt=media&token=a4eaabcd-d10a-4d49-b0ba-f2abf72c558d
+      lastModifiedTS: 1733249869194
+      name: winter_supreme.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/photo/u1YRHrD4wmMZFZRUloOn-winter_supreme.png
       type: image/png
   playerCount: 16
-  springName: Supreme Isthmus v1.8
+  springName: Supreme Isthmus Winter v1.8.2
   startPos:
     positions:
       P1:
@@ -3103,8 +3096,8 @@ ACgCe99NC8yZFecMwRCm:
     - flat
     - hills
     - water
-    - grassy
     - forests
+    - ice
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick, Moose
   backgroundImage:
@@ -3591,6 +3584,7 @@ CXD1uv9uv28szDdk3dFR:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCXD1uv9uv28szDdk3dFR%2Fphoto%2FaCb9bywB8OmaCBgEn3KE-Isidis%20crack%201.0.jpg?alt=media&token=a02226e8-0ab7-491a-b622-aabd0432c3d4
@@ -4169,6 +4163,7 @@ ER2B5mT2LU864k1f0UeH:
   inPool: true
   mapLists:
     - testList
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FER2B5mT2LU864k1f0UeH%2Fphoto%2FJny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg?alt=media&token=d43c0daa-8869-4e38-8353-8c3201547177
@@ -8801,14 +8796,14 @@ XMFpTWsDjFSPjJ4nOZSO:
       startboxes:
         - poly:
             - x: 10
-              y: 20
-            - x: 50
-              y: 60
+              y: 19
+            - x: 34
+              y: 43
         - poly:
-            - x: 148
-              y: 42
-            - x: 188
-              y: 82
+            - x: 167
+              y: 43
+            - x: 190
+              y: 67
     xBuN7uzM1akkXKkdVTni:
       maxPlayersPerStartbox: 1
       startboxes:
@@ -8829,9 +8824,9 @@ XMFpTWsDjFSPjJ4nOZSO:
               y: 186
   teamCount: 3
   terrain:
-    - desert
     - island
-    - wasteland
+    - alien
+    - water
 XR0Czafa4dwZRh0r3fTy:
   author: Nikuksis
   backgroundImage:
@@ -8991,6 +8986,8 @@ XnCjzq4LvLB6mik5aib1:
       ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/BjtT87k0z2IeAOFY33xi-avalanche_SS 1.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FperspectiveShot%2F8nTlZtJddAPlZs2ru4CR-avalanche%20Perspective.png?alt=media&token=e547b8ed-c21b-43bd-9bce-d252003e5ace
@@ -9087,6 +9084,8 @@ Xut8FRCmn2h5DuUqzF26:
       ref: maps/Xut8FRCmn2h5DuUqzF26/inGameShots/SLb2F3Nn9hs4fZXIhwYX-RCR_SF_closeup.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXut8FRCmn2h5DuUqzF26%2Fphoto%2FXKJOASLUXgY6k9muVOGp-Red%20Comet%20Remaker%201.8%20Minimap.jpg?alt=media&token=8a158f7c-e096-4925-a84c-d1282aaf5a67
@@ -9458,7 +9457,7 @@ Z7wmue7EsjaTNpsdBuyx:
           - starts:
               - role: front
                 spawnPoint: P1
-              - role: tech
+              - role: front
                 spawnPoint: P2
               - role: front
                 spawnPoint: P3
@@ -9475,7 +9474,7 @@ Z7wmue7EsjaTNpsdBuyx:
           - starts:
               - role: front
                 spawnPoint: P9
-              - role: tech
+              - role: front
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
@@ -10495,6 +10494,8 @@ bX4YxbtQ8YCc6G0yMumJ:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbX4YxbtQ8YCc6G0yMumJ%2Fphoto%2FrkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg?alt=media&token=f664f824-cb46-43d0-a4c3-2179549c09b8
@@ -14494,13 +14495,13 @@ oX7eHI8mlpVvJUYs4v4Y:
       - playersPerTeam: 8
         sides:
           - starts:
-              - role: front/tech
+              - role: front
                 spawnPoint: P1
               - role: air
                 spawnPoint: P2
               - role: tech
                 spawnPoint: P3
-              - role: front/tech
+              - role: front
                 spawnPoint: P4
               - role: front
                 spawnPoint: P5
@@ -14511,13 +14512,13 @@ oX7eHI8mlpVvJUYs4v4Y:
               - role: front
                 spawnPoint: P8
           - starts:
-              - role: front/tech
+              - role: front
                 spawnPoint: P9
               - role: air
                 spawnPoint: P10
               - role: tech
                 spawnPoint: P11
-              - role: front/tech
+              - role: front
                 spawnPoint: P12
               - role: front
                 spawnPoint: P13
@@ -14762,6 +14763,8 @@ pqGeTK0PB1xPJ6A1u6CO:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/pqGeTK0PB1xPJ6A1u6CO/photo/8nfaUN9dUFhDnvAK6r5k-TitanDuel_V3.jpg
@@ -15364,6 +15367,8 @@ sKu3wAd6qfR5jG8fC6KU:
     - team
     - 1v1
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
@@ -15867,6 +15872,7 @@ u17mWZp6jqx5b5s0Or5z:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FsdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png?alt=media&token=1b7f8dd3-864d-4c64-83f9-0446f512af3c
@@ -16999,6 +17005,86 @@ xn2aVcKlkpTQAakCC3Z8:
   teamCount: 2
   terrain:
     - hills
+xzehc1xO45wtSJqrFRlD:
+  author: RebelNode
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2FbackgroundImage%2FIr6FtgIcNEGrHJJpH4hp-screen1.png?alt=media&token=8c36134b-477d-47d9-b1b2-113b7ec222be
+      lastModifiedTS: 1733216045710
+      name: screen1.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/backgroundImage/Ir6FtgIcNEGrHJJpH4hp-screen1.png
+      type: image/png
+  certified: true
+  description: You might want to build some radar cell towers.
+  displayName: Cells
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2FinGameShots%2FVkxHCNlOQqBZDOJVelW0-screen2.png?alt=media&token=a70c70ca-e6d8-4298-a640-6660fc1c9932
+      lastModifiedTS: 1733216131000
+      name: screen2.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/inGameShots/VkxHCNlOQqBZDOJVelW0-screen2.png
+      type: image/png
+  inPool: true
+  mapLists:
+    - land16p
+    - popular16p
+    - strict
+  minPlayerCount: 8
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2FperspectiveShot%2F5qlD6mJaz7EF24hh4xmM-perspective.png?alt=media&token=6ce7f5f2-3fc4-41ac-90e9-acf40759e6a7
+      lastModifiedTS: 1733217435987
+      name: perspective.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/perspectiveShot/5qlD6mJaz7EF24hh4xmM-perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2Fphoto%2FFjDy1oUdLuvPec6PrzNa-topdown.png?alt=media&token=051f1a92-0dad-4396-9c6c-089b5663dbb5
+      lastModifiedTS: 1733216004051
+      name: topdown.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/photo/FjDy1oUdLuvPec6PrzNa-topdown.png
+      type: image/png
+  playerCount: 16
+  springName: Cells 1.2
+  startboxesSet:
+    jb0Rnwfwxy2RO6lAO3ff:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+    vrtIMpa0hlnwkQL33VAV:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 90
+              y: 60
+        - poly:
+            - x: 110
+              y: 140
+            - x: 200
+              y: 200
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 90
+        - poly:
+            - x: 0
+              y: 110
+            - x: 60
+              y: 200
+  teamCount: 2
+  terrain:
+    - desert
+    - hills
 yhOJI5yH4yGFmx9PMt9T:
   author: Johannes
   backgroundImage:
@@ -17206,10 +17292,10 @@ zvBCoDF2TaUPp7AwfCUr:
       ref: maps/zvBCoDF2TaUPp7AwfCUr/perspectiveShot/eQluounjIRuyxPPoSHfb-PinewoodDerby 2.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2Fphoto%2FPRjd7wt4mtLqRIwXcRWj-PinewoodDerby-MinimapXL.jpg?alt=media&token=7a112ba8-0817-4afb-a186-6ec44346d5c7
-      lastModifiedTS: 1699917598935
-      name: PinewoodDerby-MinimapXL.jpg
-      ref: maps/zvBCoDF2TaUPp7AwfCUr/photo/PRjd7wt4mtLqRIwXcRWj-PinewoodDerby-MinimapXL.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2Fphoto%2FoMimWbbWSn2z8FB1PsJ1-Pinewood_Derby_V1.jpg?alt=media&token=4b84698b-8718-4200-a128-12245c0bac01
+      lastModifiedTS: 1733856102310
+      name: Pinewood_Derby_V1.jpg
+      ref: maps/zvBCoDF2TaUPp7AwfCUr/photo/oMimWbbWSn2z8FB1PsJ1-Pinewood_Derby_V1.jpg
       type: image/jpeg
   playerCount: 4
   springName: Pinewood_Derby_V1
