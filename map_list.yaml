@@ -368,6 +368,7 @@
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1JL7kMOT8mYsx2OEQnv8%2Fphoto%2FfhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg?alt=media&token=55e38608-c45d-4e71-a548-316a3df81941
@@ -769,7 +770,7 @@
   playerCount: 12
   springName: Archsimkats_Valley_V1
   startboxesSet:
-    ZrZAqkZTyPLtvf7sMfqk:
+    mq6dVibwsGA3S01hK4RP:
       maxPlayersPerStartbox: 6
       startboxes:
         - poly:
@@ -1465,6 +1466,7 @@
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F44vuVzD9DD5wyzZz0L7i%2Fphoto%2FaM9vt5DiowJMZqxOJJBf-Heartbreak%20Hill.jpg?alt=media&token=943f6fd3-84dc-445b-9547-5dd6901ae8e5
@@ -2573,7 +2575,6 @@
   mapLists:
     - testList
     - competitive2p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
@@ -2640,6 +2641,8 @@
       ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/ILsXS3j4qWb1ap1GUTLo-EclipsedDetail6.PNG
       type: image/png
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FperspectiveShot%2FsVgGRUoXktWQ1fQwM0cu-EclipsedPerspective3.PNG?alt=media&token=a55a01e7-138a-4d9f-90d2-192c92327cfb
@@ -4163,7 +4166,6 @@ ER2B5mT2LU864k1f0UeH:
   inPool: true
   mapLists:
     - testList
-    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FER2B5mT2LU864k1f0UeH%2Fphoto%2FJny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg?alt=media&token=d43c0daa-8869-4e38-8353-8c3201547177
@@ -5885,10 +5887,10 @@ LutAHarULFOEKKA21AvQ:
 MDi3gNqaTj3H1DkzpPfz:
   author: Moose, Beherith, Johannes
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2Fq9zDsFLKUwBG0AnS7eng-screen_2023-11-25_03-09-44-258.png?alt=media&token=ac986dcb-24de-4992-87cb-a330a8a353cb
-      lastModifiedTS: 1700881784662
-      name: screen_2023-11-25_03-09-44-258.png
-      ref: maps/MDi3gNqaTj3H1DkzpPfz/backgroundImage/q9zDsFLKUwBG0AnS7eng-screen_2023-11-25_03-09-44-258.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2FweXbp3WjbvODfIjQB7Go-screen_2025-02-06_03-04-58-506.png?alt=media&token=8ff8514f-075b-44f2-b63e-abffbae0f60d
+      lastModifiedTS: 1738811099177
+      name: screen_2025-02-06_03-04-58-506.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/backgroundImage/weXbp3WjbvODfIjQB7Go-screen_2025-02-06_03-04-58-506.png
       type: image/png
   certified: true
   description: An arena of dark crystal plateaus rise above a winding river.
@@ -5896,18 +5898,35 @@ MDi3gNqaTj3H1DkzpPfz:
   gameType:
     - 1v1
     - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FinGameShots%2FuwEBGGUOhuVDELs6wfgb-screen_2025-02-06_03-05-28-787.png?alt=media&token=e6946f12-a742-4117-af0a-c74e02353be1
+      lastModifiedTS: 1738811129233
+      name: screen_2025-02-06_03-05-28-787.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/inGameShots/uwEBGGUOhuVDELs6wfgb-screen_2025-02-06_03-05-28-787.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FinGameShots%2FHmN6sxIM4R1hZ7guTagm-screen_2025-02-06_03-04-32-844.png?alt=media&token=7bbc2d3d-a6c0-404a-b255-93339d429808
+      lastModifiedTS: 1738811073363
+      name: screen_2025-02-06_03-04-32-844.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/inGameShots/HmN6sxIM4R1hZ7guTagm-screen_2025-02-06_03-04-32-844.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FinGameShots%2FSoEBHiR46lcgXFwfxFUL-screen_2025-02-06_03-06-18-014.png?alt=media&token=bbf16f48-1bea-41a5-b270-69e526c711fc
+      lastModifiedTS: 1738811178553
+      name: screen_2025-02-06_03-06-18-014.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/inGameShots/SoEBHiR46lcgXFwfxFUL-screen_2025-02-06_03-06-18-014.png
+      type: image/png
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg?alt=media&token=c33edd2a-3f9e-48bc-8261-5d47aa8785ce
-      lastModifiedTS: 1688418781719
-      name: screen00023cropped.jpg
-      ref: maps/MDi3gNqaTj3H1DkzpPfz/photo/ocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FU9IKe30WYnKQaM7J07j4-onyxmini.png?alt=media&token=1683f1d0-22fb-49f2-b05f-eb477ca62f56
+      lastModifiedTS: 1738811527455
+      name: onyxmini.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/photo/U9IKe30WYnKQaM7J07j4-onyxmini.png
+      type: image/png
   playerCount: 2
-  springName: Onyx Cauldron 2.2.1
+  springName: Onyx Cauldron 2.2.2
   startboxesSet:
     rN1b1dKs245WjkLpjlDb:
       maxPlayersPerStartbox: 1
@@ -9084,8 +9103,7 @@ Xut8FRCmn2h5DuUqzF26:
       ref: maps/Xut8FRCmn2h5DuUqzF26/inGameShots/SLb2F3Nn9hs4fZXIhwYX-RCR_SF_closeup.jpg
       type: image/jpeg
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXut8FRCmn2h5DuUqzF26%2Fphoto%2FXKJOASLUXgY6k9muVOGp-Red%20Comet%20Remaker%201.8%20Minimap.jpg?alt=media&token=8a158f7c-e096-4925-a84c-d1282aaf5a67
@@ -10494,8 +10512,7 @@ bX4YxbtQ8YCc6G0yMumJ:
     - 1v1
     - team
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbX4YxbtQ8YCc6G0yMumJ%2Fphoto%2FrkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg?alt=media&token=f664f824-cb46-43d0-a4c3-2179549c09b8
@@ -11917,6 +11934,7 @@ fkhBIvsAdLiL9CvVlp2l:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fkhBIvsAdLiL9CvVlp2l/photo/Np5wxgfUELY0C07nyo2x-Silent_Sea_v1.jpg
@@ -12154,6 +12172,7 @@ g7NeIaS3XxFSn2KcrCiL:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2Fphoto%2Fn2pJT5svY3Z0PnYbv6Cg-crystalmini.png?alt=media&token=579da67e-83ce-4776-94b8-039330819f93
@@ -12592,6 +12611,7 @@ ggVDNTLRh7HNk4mf9mf6:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FggVDNTLRh7HNk4mf9mf6%2FperspectiveShot%2FZRaKL3vIJyL2qHMv5gwr-CometCatcherRemakeBAR.png?alt=media&token=2e0bb670-9749-4614-846a-0be3b0709d94
@@ -13127,6 +13147,49 @@ j3X9bepS3FrtzjLLNmmu:
     - grassy
     - shallows
   title: Start Small
+jWIjHBYEHstYSyrSstVr:
+  author: Phalange
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjWIjHBYEHstYSyrSstVr%2FbackgroundImage%2FWyjKbFg0d1Ms025oYhiU-screen_2025-01-31_19-55-24-048.png?alt=media&token=cfad9c96-e5d3-4429-8146-3f4f5c76f475
+      lastModifiedTS: 1738353324357
+      name: screen_2025-01-31_19-55-24-048.png
+      ref: maps/jWIjHBYEHstYSyrSstVr/backgroundImage/WyjKbFg0d1Ms025oYhiU-screen_2025-01-31_19-55-24-048.png
+      type: image/png
+  certified: false
+  description: Salt Reef 40v40 version for the 40k special event. Ramps on messas and large craters are bots passable
+    only, and few more on the plateaus.
+  displayName: Special Reef
+  gameType:
+    - pve
+  inPool: true
+  minPlayerCount: 16
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjWIjHBYEHstYSyrSstVr%2Fphoto%2FKcQKKXoka9oS1UASfsDB-Special_Reef_minimap.jpg?alt=media&token=26cc6e40-6a94-4de4-9d09-c78c28712ef4
+      lastModifiedTS: 1738409308341
+      name: Special_Reef_minimap.jpg
+      ref: maps/jWIjHBYEHstYSyrSstVr/photo/KcQKKXoka9oS1UASfsDB-Special_Reef_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Special Reef 1.0
+  startboxesSet:
+    VlGuAWiYUKVlYHqjd20U:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 75
+              y: 200
+        - poly:
+            - x: 125
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - alien
+    - flat
+    - hills
 jyQlMYahZbQYgC1ZGRmd:
   author: Phalange
   backgroundImage:
@@ -15791,6 +15854,7 @@ te9bV2b9aiw8w9qgzTJg:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 3
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fte9bV2b9aiw8w9qgzTJg%2FperspectiveShot%2Fv0kOA8S6g3Ah9846BUjB-the_cold_place_bar_3D.png?alt=media&token=d01f8378-c889-425d-a142-14f3cc9af147
@@ -15872,7 +15936,6 @@ u17mWZp6jqx5b5s0Or5z:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FsdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png?alt=media&token=1b7f8dd3-864d-4c64-83f9-0446f512af3c
