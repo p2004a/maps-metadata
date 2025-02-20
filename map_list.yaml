@@ -1034,10 +1034,10 @@
 3QOjI5FJqvQEJElcRgTQ:
   author: Moose
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FbackgroundImage%2FgfgOwuhi25gOegFPyCSi-screen00013.png?alt=media&token=6340cb5b-d047-4ca2-87ab-e2ab1d9f7a68
-      lastModifiedTS: 1700525462156
-      name: screen00013.png
-      ref: maps/3QOjI5FJqvQEJElcRgTQ/backgroundImage/gfgOwuhi25gOegFPyCSi-screen00013.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FbackgroundImage%2FBFswnPLkNMaP16UkpSVu-screen_2025-02-15_01-05-53-474.png?alt=media&token=1f87cb3b-70ad-4821-8a03-ccc5f6f4114f
+      lastModifiedTS: 1739581554209
+      name: screen_2025-02-15_01-05-53-474.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/backgroundImage/BFswnPLkNMaP16UkpSVu-screen_2025-02-15_01-05-53-474.png
       type: image/png
   certified: true
   description: This desolate asteroid is fought over only for the rich metal deposits.
@@ -1045,6 +1045,27 @@
   gameType:
     - ffa
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FYQY4UqAXyjxhv7H5uGDN-screen_2025-02-15_01-02-47-472.png?alt=media&token=17422793-aa41-432c-ab78-fc6d887b960c
+      lastModifiedTS: 1739581368146
+      name: screen_2025-02-15_01-02-47-472.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/YQY4UqAXyjxhv7H5uGDN-screen_2025-02-15_01-02-47-472.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FoFMD3eSv5cs7tLQS7zxH-screen_2025-02-15_01-03-14-864.png?alt=media&token=2185ec8d-5c5a-4766-8a89-5aee83308c97
+      lastModifiedTS: 1739581395327
+      name: screen_2025-02-15_01-03-14-864.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/oFMD3eSv5cs7tLQS7zxH-screen_2025-02-15_01-03-14-864.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FxT0Btnhkaltxw3JMEBpL-screen_2025-02-15_01-05-34-917.png?alt=media&token=079a45f0-36df-4904-80d2-926d7c571256
+      lastModifiedTS: 1739581535510
+      name: screen_2025-02-15_01-05-34-917.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/xT0Btnhkaltxw3JMEBpL-screen_2025-02-15_01-05-34-917.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FlViNolU1h1iU1hLCR6B5-screen_2025-02-15_01-04-48-595.png?alt=media&token=e996a3e3-4129-4c28-b4ba-e62ab69181d8
+      lastModifiedTS: 1739581489143
+      name: screen_2025-02-15_01-04-48-595.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/lViNolU1h1iU1hLCR6B5-screen_2025-02-15_01-04-48-595.png
+      type: image/png
   inPool: true
   mapLists:
     - land16p
@@ -1053,13 +1074,13 @@
     - rotatoApprentice
   minPlayerCount: 10
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
-      lastModifiedTS: 1683982253960
-      name: Rosetta_1.4.jpg
-      ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2Fphoto%2FyrKgw55AuDtEjTQNqKXn-rosettamini.png?alt=media&token=7196a95a-72ca-4c46-b1c3-bff6a22c17d0
+      lastModifiedTS: 1739583937780
+      name: rosettamini.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/yrKgw55AuDtEjTQNqKXn-rosettamini.png
+      type: image/png
   playerCount: 16
-  springName: Rosetta 1.42
+  springName: Rosetta 1.4.4
   startPos:
     positions:
       P1:
@@ -1904,6 +1925,74 @@
     - sea
     - chokepoints
     - island
+621pQeCRmxhbgvz3lDzS:
+  author: AidanNaut
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FbackgroundImage%2FQx5C8HkmATkatFoF3EsH-GasbagGrabensDetail4.PNG?alt=media&token=0ba94d78-5c4f-4c25-b965-0188a5b3e29f
+      lastModifiedTS: 1739563392866
+      name: GasbagGrabensDetail4.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/backgroundImage/Qx5C8HkmATkatFoF3EsH-GasbagGrabensDetail4.PNG
+      type: image/png
+  certified: false
+  description: |-
+    The terraforming mission in Sector G026 has failed. Destroy all opposition before the acid claims you.
+
+    1v1 recommended. 2v2s and 3v3s playable. Texture resources provided by Nikuksis.
+  displayName: Gasbag Grabens
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FamMFePmmCVsxEdpi50YM-GasbagGrabensDetail1.PNG?alt=media&token=a36cba19-ad0d-47e5-8f01-0cf2af2893ad
+      lastModifiedTS: 1739563255175
+      name: GasbagGrabensDetail1.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/amMFePmmCVsxEdpi50YM-GasbagGrabensDetail1.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FxDBO8yVH6bCsfJ7JcScW-GasbagGrabensDetail2.PNG?alt=media&token=63680c61-254f-405a-94d6-dfa33a2b8ef5
+      lastModifiedTS: 1739563292038
+      name: GasbagGrabensDetail2.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/xDBO8yVH6bCsfJ7JcScW-GasbagGrabensDetail2.PNG
+      type: image/png
+  inPool: true
+  mapLists:
+    - tourney2p
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2Fphoto%2FyHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG?alt=media&token=aa91bff8-46f4-4b5c-a9e3-97c80319d3f9
+      lastModifiedTS: 1739571260218
+      name: GasbagGrabensThumb.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/photo/yHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG
+      type: image/png
+  playerCount: 6
+  springName: Gasbag Grabens 0.9.1
+  startPos:
+    positions:
+      P1:
+        x: 1640
+        y: 2595
+      P2:
+        x: 7620
+        y: 3515
+  startboxesSet:
+    SItZn0xkOoG4oHYkLoWc:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 25
+              y: 75
+            - x: 55
+              y: 160
+        - poly:
+            - x: 145
+              y: 40
+            - x: 175
+              y: 125
+  teamCount: 2
+  terrain:
+    - acidic
+    - chokepoints
+    - island
+  title: A world melting apart
 7lBJDhvj1t0JYUNiCZED:
   author: Nikuksis
   backgroundImage:
@@ -2575,6 +2664,7 @@
   mapLists:
     - testList
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
@@ -5718,6 +5808,8 @@ KAQ69kPLvMZgMuLXIoyU:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKAQ69kPLvMZgMuLXIoyU%2Fphoto%2FwhPysupyZ1FViJL3yHRr-Screenshot%20at%202023-08-13%2023-03-50.png?alt=media&token=e56f6213-e6c8-4fc7-af5f-647c1006e54e
@@ -8525,29 +8617,45 @@ WuwJQPBtwMfJR9czmWuQ:
 X0N11knnIS4fWqkoFPBC:
   author: Moose
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FbackgroundImage%2F6K2WcRyhJPWoKIePC5qb-screen00014.png?alt=media&token=077f5371-2f3f-4d27-b91d-631449eb19dc
-      lastModifiedTS: 1700526218226
-      name: screen00014.png
-      ref: maps/X0N11knnIS4fWqkoFPBC/backgroundImage/6K2WcRyhJPWoKIePC5qb-screen00014.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FbackgroundImage%2Fz3FODEkoKN2bhPzs7UCI-screen_2025-02-13_20-44-51-034.png?alt=media&token=ef5ba349-c044-478b-b673-baf68e77c5dc
+      lastModifiedTS: 1739479491533
+      name: screen_2025-02-13_20-44-51-034.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/backgroundImage/z3FODEkoKN2bhPzs7UCI-screen_2025-02-13_20-44-51-034.png
       type: image/png
   certified: true
   description: Large mountains and many passes.
   displayName: Twin Lakes Park
   gameType:
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FinGameShots%2FR0iZ1CL35oGRQbIqsQVm-screen_2025-02-13_20-46-12-190.png?alt=media&token=25d918e8-4381-4bea-8627-7d083e5c3994
+      lastModifiedTS: 1739479572735
+      name: screen_2025-02-13_20-46-12-190.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/inGameShots/R0iZ1CL35oGRQbIqsQVm-screen_2025-02-13_20-46-12-190.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FinGameShots%2F73tMfwee9mO6wBTrbroN-screen_2025-02-13_20-45-47-964.png?alt=media&token=883d78f6-9618-4491-afd1-0c1cea227e86
+      lastModifiedTS: 1739479548428
+      name: screen_2025-02-13_20-45-47-964.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/inGameShots/73tMfwee9mO6wBTrbroN-screen_2025-02-13_20-45-47-964.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FinGameShots%2Fg8xQWzdHKGdeqbpN3XWJ-screen_2025-02-13_20-45-24-028.png?alt=media&token=7c787087-aa62-4bca-a148-c73f3bfa8fb9
+      lastModifiedTS: 1739479524530
+      name: screen_2025-02-13_20-45-24-028.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/inGameShots/g8xQWzdHKGdeqbpN3XWJ-screen_2025-02-13_20-45-24-028.png
+      type: image/png
   inPool: true
   mapLists:
     - land16p
     - popular16p
   minPlayerCount: 12
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/X0N11knnIS4fWqkoFPBC/photo/YrsrTUOzkT6tA2Gk4RZt-Twin_Lakes_Park_Redux_1.2.jpg
-      lastModifiedTS: 1683982288630
-      name: Twin_Lakes_Park_Redux_1.2.jpg
-      ref: maps/X0N11knnIS4fWqkoFPBC/photo/YrsrTUOzkT6tA2Gk4RZt-Twin_Lakes_Park_Redux_1.2.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2Fphoto%2FXZrG25z9ZDik3X84wQQj-tlpmini.png?alt=media&token=d7a575cc-794d-4215-93b2-8a15e50e83dd
+      lastModifiedTS: 1739490713637
+      name: tlpmini.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/photo/XZrG25z9ZDik3X84wQQj-tlpmini.png
+      type: image/png
   playerCount: 16
-  springName: Twin Lakes Park Redux 1.21
+  springName: Twin Lakes Park Redux 1.2.2
   startPos:
     positions:
       P1:
@@ -9005,8 +9113,7 @@ XnCjzq4LvLB6mik5aib1:
       ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/BjtT87k0z2IeAOFY33xi-avalanche_SS 1.jpg
       type: image/jpeg
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FperspectiveShot%2F8nTlZtJddAPlZs2ru4CR-avalanche%20Perspective.png?alt=media&token=e547b8ed-c21b-43bd-9bce-d252003e5ace
@@ -11714,6 +11821,7 @@ eR6j6L2F2OSP7QeCfW8O:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FperspectiveShot%2FrtaUpiq805KZION8vexS-Paradise_Lost_BAR.png?alt=media&token=a8994931-fa7d-4662-b087-2bcdc3cf7029
@@ -12611,7 +12719,6 @@ ggVDNTLRh7HNk4mf9mf6:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FggVDNTLRh7HNk4mf9mf6%2FperspectiveShot%2FZRaKL3vIJyL2qHMv5gwr-CometCatcherRemakeBAR.png?alt=media&token=2e0bb670-9749-4614-846a-0be3b0709d94
@@ -15430,8 +15537,7 @@ sKu3wAd6qfR5jG8fC6KU:
     - team
     - 1v1
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
@@ -15854,7 +15960,6 @@ te9bV2b9aiw8w9qgzTJg:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
   minPlayerCount: 3
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fte9bV2b9aiw8w9qgzTJg%2FperspectiveShot%2Fv0kOA8S6g3Ah9846BUjB-the_cold_place_bar_3D.png?alt=media&token=d01f8378-c889-425d-a142-14f3cc9af147
