@@ -6,8 +6,7 @@ import path from 'node:path';
 import { pipeline } from 'node:stream/promises';
 import { createHash } from 'node:crypto';
 import got from 'got';
-import { WebflowClient } from 'webflow-api';
-import type * as Webflow from 'webflow-api/api/types';
+import { WebflowClient, Webflow } from 'webflow-api';
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
 import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
@@ -16,7 +15,7 @@ import { readMapCDNInfos } from './cdn_maps.js';
 import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
 import mapSchema from '../../../gen/schemas/map_list.json';
 import {
-    WebflowImageRef,
+    WebflowFileRef,
     WebflowMapFieldsRead,
     WebflowMapFieldsWrite,
     WebflowMapTagFieldsRead,
@@ -134,14 +133,14 @@ async function sameImages(urls1: string[], urls2: string[]): Promise<boolean> {
     return h1.every((v, i) => v === h2[i]);
 }
 
-async function pickImage(url: string, base?: WebflowImageRef): Promise<string> {
+async function pickImage(url: string, base?: WebflowFileRef): Promise<string> {
     if (base && await sameImage(url, base.url)) {
         return base.fileId;
     }
     return url;
 }
 
-async function pickImages(urls: string[], base?: WebflowImageRef[]): Promise<string[]> {
+async function pickImages(urls: string[], base?: WebflowFileRef[]): Promise<string[]> {
     const [h, hBaseEntries] = await Promise.all([
         Promise.all(urls.map(async url => {
             return [url, await getImageHash(url)] as [string, string];
@@ -195,13 +194,11 @@ interface IWebflowItemType {
 }
 
 function fieldsToItem(fields: Webflow.CollectionItemFieldData): Webflow.CollectionItem {
-    // Need to cast because no id, that's because of
-    // https://github.com/webflow/openapi-spec/issues/4
     return {
         isDraft: false,
         isArchived: false,
         fieldData: fields
-    } as Webflow.CollectionItem;
+    };
 }
 
 interface IWebflowItem extends IWebsiteItem {
@@ -286,6 +283,8 @@ interface WebsiteMapInfo {
     bgImageUrl: string | null;
     perspectiveShotUrl: string | null;
     moreImagesUrl: string[];
+    mapHeightMin: number;
+    mapHeightMax: number;
     windMin: number;
     windMax: number;
     tidalStrength: number | null;
@@ -320,6 +319,8 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.title === b.title &&
         a.description === b.description &&
         a.author === b.author &&
+        a.mapHeightMin === b.mapHeightMin &&
+        a.mapHeightMax === b.mapHeightMax &&
         a.windMin === b.windMin &&
         a.windMax === b.windMax &&
         a.tidalStrength === b.tidalStrength &&
@@ -331,18 +332,13 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
 
 interface WebflowMapInfo extends WebsiteMapInfo { }
 
-// fieldData is marked as possibly not set for some reason.
-type CollectionItemWithData = Webflow.CollectionItem & { fieldData: Webflow.CollectionItemFieldData };
-
 // WebflowMap is the native Webflow representation of data as used by the
 // Webflow API.
 class WebflowMapInfo {
-    // fieldData is always set.
-    item: CollectionItemWithData;
+    item: Webflow.CollectionItem;
 
     constructor(item: Webflow.CollectionItem) {
-        assert(item.fieldData);
-        this.item = item as CollectionItemWithData;
+        this.item = item;
         const o = item.fieldData as WebflowMapFieldsRead;
 
         this.name = o.name;
@@ -361,6 +357,8 @@ class WebflowMapInfo {
         this.moreImagesUrl = reqRArr(o['more-images']?.map(i => i.url));
         this.windMin = reqRNum(o['wind-min']);
         this.windMax = reqRNum(o['wind-max']);
+        this.mapHeightMin = reqRNum(o['map-height-min']);
+        this.mapHeightMax = reqRNum(o['map-height-max']);
         this.tidalStrength = optR(o['tidal-strength']);
         this.teamCount = reqRNum(o['team-count']);
         this.maxPlayers = reqRNum(o['max-players']);
@@ -390,6 +388,8 @@ class WebflowMapInfo {
             'more-images': await pickImages(info.moreImagesUrl, base?.item.fieldData['more-images']),
             'wind-min': info.windMin,
             'wind-max': info.windMax,
+            'map-height-min': info.mapHeightMin,
+            'map-height-max': info.mapHeightMax,
             'tidal-strength': info.tidalStrength,
             'team-count': info.teamCount,
             'max-players': info.maxPlayers,
@@ -449,6 +449,8 @@ async function buildWebflowInfo(
             perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
             moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
             // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
+            mapHeightMin: derivedInfo.mapHeightMin,
+            mapHeightMax: derivedInfo.mapHeightMax,
             windMin: derivedInfo.windMin,
             windMax: derivedInfo.windMax,
             tidalStrength: derivedInfo.tidalStrength ?? null,
@@ -481,7 +483,7 @@ async function getFieldCollection(field: keyof WebflowMapFieldsRead, mapCollecti
     if (fields.length !== 1) {
         throw new Error(`Expected one field with slug '${field}' in ${mapCollection.slug}, got ${fields.length}`);
     }
-    return await webflow.collections.get(fields[0].validations!.collectionId);
+    return await webflow.collections.get(fields[0].validations.collectionId);
 }
 
 
@@ -495,7 +497,7 @@ function resolveItemRefsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, field:
                 }
                 throw new Error(`Missing ${field} ${ref}`);
             }
-            return t.item.id;
+            return t.item.id!;
         });
     }
 }
@@ -574,7 +576,7 @@ async function syncCollectionToWebflowAdditions(
                 itemPatch.id = webflowTag.item.id;
                 const item = await limiter.schedule(
                     () => webflow.collections.items.updateItem(
-                        collection.id, webflowTag.item.id, itemPatch));
+                        collection.id, webflowTag.item.id!, itemPatch));
                 assert(item.fieldData!.slug!);
                 dest.set(item.fieldData!.slug!, new webflowItemType(item));
             } else {
@@ -596,7 +598,7 @@ async function syncCollectionToWebflowRemovals(
         if (!src.has(item.slug)) {
             console.log(`Removing ${typeName} ${item.name}`);
             if (!dryRun) {
-                await limiter.schedule(() => webflow.collections.items.deleteItem(collection.id, item.item.id));
+                await limiter.schedule(() => webflow.collections.items.deleteItem(collection.id, item.item.id!));
                 dest.delete(item.slug);
             }
         }
@@ -672,7 +674,7 @@ async function syncMapsToWebflow(
         if (!src.has(map.rowyId)) {
             console.log(`Removing ${map.name}`);
             if (!dryRun) {
-                await limiter.schedule(() => webflow.collections.items.deleteItem(mapsCollection.id, map.item.id));
+                await limiter.schedule(() => webflow.collections.items.deleteItem(mapsCollection.id, map.item.id!));
                 dest.delete(map.rowyId);
             }
         }
@@ -686,7 +688,7 @@ async function syncMapsToWebflow(
             itemPatch.id = webflowMap.item.id;
             const item = await limiter.schedule(
                 () => webflow.collections.items.updateItem(
-                    mapsCollection.id, webflowMap.item.id, itemPatch));
+                    mapsCollection.id, webflowMap.item.id!, itemPatch));
             dest.set(map.rowyId, new WebflowMapInfo(item));
         } else {
             console.log(webflowMap);
@@ -699,7 +701,7 @@ async function publishUpdatedWebflowItems(collection: Webflow.Collection, items:
     const itemIds = Array.from(items.values())
         .map(i => i.item)
         .filter(i => !i.lastPublished || Date.parse(i.lastPublished) < Date.parse(i.lastUpdated!))
-        .map(i => i.id);
+        .map(i => i.id!);
     console.log(`Publishing ${itemIds.length} items`);
     if (!dryRun) {
         const chunkSize = 100;

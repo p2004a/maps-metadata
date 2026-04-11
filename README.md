@@ -35,8 +35,16 @@ environment for the development.
 ./scripts/install.sh
 ```
 
-Then we need to setup a few environment variables to make sure that installed
-dependencies are correctly visible in `PATH`
+Create a copy of the environment variables file
+
+```
+cp .env.example .env
+```
+
+For testing some scripts that push data to external services, setting env variables
+in the .env might be necessary. Values must be obtained from the corresponding team
+for the need (TEIServer, Webflow, etc.)
+
 
 ```
 source .envrc
@@ -68,6 +76,23 @@ docker run -it --rm maps-metadata-build
 
 Note: if you later need to copy some files *out* of the docker container, read
 about `docker cp`.
+
+#### Docker w/ Mounted Volume
+
+Instead of building an image and copying files out of the container (as well as
+doing any editing within that container), you can mount the repository directory
+as a volume. This way, any changes you make on your host machine will be reflected
+inside the container, and you can easily access generated files.
+
+```
+docker run -it --rm -v $(pwd):/build maps-metadata-build
+```
+
+Windows (powershell):
+
+```
+docker run -it --rm -v ${PWD}:/build maps-metadata-build
+```
 
 ### Build artifacts
 
