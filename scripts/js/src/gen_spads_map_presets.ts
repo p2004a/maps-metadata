@@ -15,6 +15,18 @@ const AUTOMATED_HEADER = `#
 #
 `;
 
+// Modoptions that SPADS must reset to their default on every map change, but which are not part of
+// the map metadata. Format is `key:valueSpec`; SPADS applies the first '|'-separated entry and uses
+// the whole list as the allowed-value set, so the spec can't be dropped: a bare `key:` would make
+// every later `!bSet key <value>` be rejected as not allowed by the battle preset.
+//
+// Keep in sync with the [team]/[ffa]/[coop]/[duel]/[tourney] declarations in
+// spads_config_bar/etc/battlePresets.conf. Those are what make the option settable at all, this is
+// only what resets it on map change. Both are required.
+const EXTRA_RESET_MODOPTIONS = [
+    'mapmetadata_startbox_override:|~[A-Za-z0-9\\-\\_]*',
+];
+
 function genPresets(mapModoptions: MapModoptions[]): [string, string] {
     let preset =
 `${AUTOMATED_HEADER}
@@ -25,7 +37,10 @@ battlePreset:map_DEFAULT
     let battlePreset =
 `${AUTOMATED_HEADER}
 [map_DEFAULT] (transparent)
-${Array.from(new Set(mapModoptions.flatMap(m => Object.keys(m.modoptions)))).join(':\n')}:
+${Array.from(new Set(mapModoptions.flatMap(m => Object.keys(m.modoptions))))
+    .map(k => `${k}:`)
+    .concat(EXTRA_RESET_MODOPTIONS)
+    .join('\n')}
 `;
 
     for (const m of mapModoptions) {
@@ -37,9 +52,11 @@ ${Array.from(new Set(mapModoptions.flatMap(m => Object.keys(m.modoptions)))).joi
 battlePreset:${battlePresetName}
 `;
 
+        // Inherit from map_DEFAULT so that all the keys this map doesn't set are reset to their
+        // default value on map change: SPADS only touches the settings a battle preset names.
         battlePreset +=
 `
-[${battlePresetName}] (transparent)
+[${battlePresetName}<map_DEFAULT>] (transparent)
 ${Object.entries(m.modoptions).map(([k, v]) => `${k}:${v}`).join('\n')}
 `;
     }
